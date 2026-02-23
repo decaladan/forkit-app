@@ -86,6 +86,13 @@ export async function incrementLike(recipeId: string): Promise<number> {
   return store[recipeId];
 }
 
+export async function decrementLike(recipeId: string): Promise<number> {
+  const store = await ensureCache();
+  store[recipeId] = Math.max((store[recipeId] ?? 0) - 1, 0);
+  await saveToGist();
+  return store[recipeId];
+}
+
 export async function getLikeCounts(
   ids: string[]
 ): Promise<Record<string, number>> {
