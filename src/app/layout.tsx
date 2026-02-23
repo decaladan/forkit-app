@@ -53,11 +53,28 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "ForkIt",
     locale: "en_US",
+    images: [
+      {
+        url: "/images/forkit-poster.jpg",
+        width: 2752,
+        height: 1536,
+        alt: "ForkIt — AI Chefs. Wacky Dishes.",
+        type: "image/jpeg",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ForkIt — What the fuck do I eat?",
     description: "5 AI chefs fight over your dinner. One wins. You eat.",
+    images: [
+      {
+        url: "/images/forkit-poster.jpg",
+        width: 2752,
+        height: 1536,
+        alt: "ForkIt — AI Chefs. Wacky Dishes.",
+      },
+    ],
   },
   robots: {
     index: true,
