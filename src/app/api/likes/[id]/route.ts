@@ -15,7 +15,8 @@ export async function GET(
     return NextResponse.json({ count: 0 }, { status: 404 });
   }
 
-  return NextResponse.json({ count: getLikeCount(id) });
+  const count = await getLikeCount(id);
+  return NextResponse.json({ count });
 }
 
 // POST /api/likes/[id]
@@ -29,6 +30,6 @@ export async function POST(
     return NextResponse.json({ error: "Invalid recipe" }, { status: 404 });
   }
 
-  const count = incrementLike(id);
+  const count = await incrementLike(id);
   return NextResponse.json({ count });
 }

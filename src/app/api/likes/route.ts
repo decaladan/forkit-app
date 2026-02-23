@@ -9,6 +9,6 @@ export async function GET(req: NextRequest) {
   }
 
   const ids = idsParam.split(",").slice(0, 50);
-  const counts = getLikeCounts(ids);
+  const counts = await getLikeCounts(ids);
   return NextResponse.json({ counts });
 }
