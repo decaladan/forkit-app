@@ -1,11 +1,11 @@
 # ForkIt
 
-> ForkIt is a recipe discovery app where 5 AI chef personalities debate and invent unique recipes in 30 seconds. Each recipe is the result of a heated argument between chefs with wildly different food philosophies — from junk food maximalists to calorie optimizers to budget kings.
+> ForkIt is a recipe discovery app where 6 AI chef personalities debate and invent unique recipes in 30 seconds. Each recipe is the result of a heated argument between chefs with wildly different food philosophies — from junk food maximalists to calorie optimizers to budget kings.
 
 ## How It Works
 
 1. Tap the big red FORK IT button
-2. Watch 5 AI chefs argue about what you should eat
+2. Watch 6 AI chefs argue about what you should eat
 3. One chef wins the debate
 4. You get a brand-new recipe with ingredients, steps, nutrition, and smart swaps
 

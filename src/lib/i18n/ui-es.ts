@@ -10,7 +10,7 @@ export const es: UIStrings = {
   home: {
     subtitle: "CHEFS IA, PLATOS LOCOS.",
     buttonLabel: "\u00A1FORK IT!",
-    tagline: "Pulsa el bot\u00F3n. Mira a 5 chefs IA pelear. Consigue tu cena.",
+    tagline: "Pulsa el bot\u00F3n. Mira a 6 chefs IA pelear. Consigue tu cena.",
   },
 
   history: {

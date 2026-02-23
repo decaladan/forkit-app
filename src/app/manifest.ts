@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "ForkIt — What the fuck do I eat?",
     short_name: "ForkIt",
-    description: "5 AI chefs fight over your dinner. One wins. You eat. Get a brand-new recipe in 30 seconds.",
+    description: "6 AI chefs fight over your dinner. One wins. You eat. Get a brand-new recipe in 30 seconds.",
     start_url: "/",
     scope: "/",
     display: "standalone",

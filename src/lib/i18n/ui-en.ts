@@ -10,7 +10,7 @@ export const en: UIStrings = {
   home: {
     subtitle: "AI CHEFS, WACKY DISHES.",
     buttonLabel: "FORK IT!",
-    tagline: "Smash the button. Watch 5 AI chefs fight. Get dinner.",
+    tagline: "Smash the button. Watch 6 AI chefs fight. Get dinner.",
   },
 
   history: {

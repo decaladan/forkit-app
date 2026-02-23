@@ -59,7 +59,36 @@ async function loadChefsEs() {
 if (typeof window !== "undefined") {
   loadRecipesEs();
   loadChefsEs();
+  detectGeoLanguage();
 }
+
+/** Auto-detect language from IP on first visit (no saved preference yet) */
+function detectGeoLanguage() {
+  try {
+    // Check if user has an existing persisted store (= returning user)
+    const stored = localStorage.getItem("forkit-store");
+    if (stored) {
+      const parsed = JSON.parse(stored);
+      // If language was already persisted, user made a choice — don't override
+      if (parsed?.state?.language) return;
+    }
+  } catch {
+    // No stored preference — this is a first visit
+  }
+
+  fetch("/api/geo")
+    .then((r) => r.json())
+    .then((data) => {
+      if (data.lang === "es") {
+        // Dynamic import to avoid circular dependency
+        import("@/lib/store").then(({ useForkItStore }) => {
+          useForkItStore.getState().setLanguage("es");
+        });
+      }
+    })
+    .catch(() => {});
+}
+
 
 // ------------------------------------
 // Hooks

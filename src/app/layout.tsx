@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s — ForkIt",
   },
   description:
-    "Tap the button. Watch 5 AI chefs argue. Get a brand-new recipe invented just for you in 30 seconds. 136 unique recipes with full nutrition, ingredients, and smart swaps.",
+    "Tap the button. Watch 6 AI chefs argue. Get a brand-new recipe invented just for you in 30 seconds. 136 unique recipes with full nutrition, ingredients, and smart swaps.",
   keywords: [
     "recipes",
     "AI chef",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   creator: "Dimatica",
   openGraph: {
     title: "ForkIt — What the fuck do I eat?",
-    description: "5 AI chefs fight over your dinner. One wins. You eat.",
+    description: "6 AI chefs fight over your dinner. One wins. You eat.",
     type: "website",
     siteName: "ForkIt",
     locale: "en_US",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ForkIt — What the fuck do I eat?",
-    description: "5 AI chefs fight over your dinner. One wins. You eat.",
+    description: "6 AI chefs fight over your dinner. One wins. You eat.",
     images: [
       {
         url: "/images/forkit-og.jpg",
@@ -117,7 +117,7 @@ export default function RootLayout({
     name: "ForkIt",
     url: BASE_URL,
     description:
-      "5 AI chefs fight over your dinner. One wins. You eat. 136 unique recipes with full nutrition, ingredients, and smart swaps.",
+      "6 AI chefs fight over your dinner. One wins. You eat. 136 unique recipes with full nutrition, ingredients, and smart swaps.",
   };
 
   return (
