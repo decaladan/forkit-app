@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "r022",
+    "name": "The Cottage Cheese Conspiracy",
+    "tagline": "Coach Bulk blended cottage cheese into pasta and nobody noticed it was healthy.",
+    "debateSummary": "Coach Bulk secretly replaced alfredo sauce with blended cottage cheese. Maximum Junk was furious until he tasted it. 30g protein per bowl and it still tastes like a cheat meal.",
+    "winningChef": "coach-bulk",
+    "ingredients": [
+      { "name": "cottage cheese", "amount": "250", "unit": "g" },
+      { "name": "rigatoni", "amount": "200", "unit": "g" },
+      { "name": "garlic", "amount": "3", "unit": "cloves" },
+      { "name": "lemon", "amount": "1", "unit": "whole" },
+      { "name": "basil", "amount": "1", "unit": "handful" },
+      { "name": "parmesan", "amount": "40", "unit": "g" },
+      { "name": "black pepper", "amount": "1", "unit": "tsp" },
+      { "name": "chili flakes", "amount": "0.5", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil rigatoni in heavily salted water until al dente. Reserve one cup of pasta water.", "timeMinutes": 10 },
+      { "number": 2, "instruction": "While pasta cooks, blend cottage cheese until completely smooth and silky.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Sauté minced garlic in olive oil for 30 seconds, then add blended cottage cheese.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Toss hot pasta into the sauce with a splash of pasta water. Stir until creamy and clinging.", "timeMinutes": 1 },
+      { "number": 5, "instruction": "Finish with lemon zest, parmesan, chili flakes, and torn basil. Serve immediately.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 12,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "rigatoni", "replacement": "protein pasta", "note": "Bumps total protein to 45g per serving" },
+      { "original": "cottage cheese", "replacement": "ricotta", "note": "Creamier but less protein — Coach Bulk disapproves" },
+      { "original": "parmesan", "replacement": "nutritional yeast", "note": "Vegan option with B12 boost" }
+    ],
+    "snap": "Blended cottage cheese is the greatest protein hack in pasta history. 30g protein, zero guilt.",
+    "debate": [
+      { "chefId": "coach-bulk", "text": "Cottage cheese pasta. 30g protein per serving. Blended smooth, nobody can tell. Let's go.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Cottage cheese in PASTA? That's a crime against comfort food.", "timestamp": 4, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Blend while the pasta boils. 12 minutes total. I'm in.", "timestamp": 7, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Roasted garlic and chili flakes. That's where flavour LIVES in this dish.", "timestamp": 10, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "25g protein per serving from cottage cheese alone. Leucine content is optimal for muscle protein synthesis.", "timestamp": 13, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Wait... I actually can't taste the cottage cheese. What kind of SORCERY is this?!", "timestamp": 16, "intensity": "explosive" },
+      { "chefId": "coach-bulk", "text": "That's the point. Feed the muscle without sacrificing taste. Gains don't have to hurt.", "timestamp": 19, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Cottage cheese is $2.50 for the whole tub. This plate costs $1.80. I approve.", "timestamp": 22, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Lemon zest at the end. Non-negotiable. It lifts the whole dish.", "timestamp": 25, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "30g protein. Creamy. Delicious. Under 15 minutes. This is peak performance eating.", "timestamp": 28, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:00:00Z"
+  },
+  {
+    "id": "r023",
+    "name": "The Hot Honey Gains Bowl",
+    "tagline": "Sweet potato meets ground beef meets hot honey. Coach Bulk's secret weapon.",
+    "debateSummary": "Coach Bulk built a meal prep bowl so good that even Maximum Junk couldn't trash it. Hot honey on savory beef and sweet potato with cottage cheese crema. 42g protein per serving.",
+    "winningChef": "coach-bulk",
+    "ingredients": [
+      { "name": "sweet potatoes", "amount": "2", "unit": "medium" },
+      { "name": "ground beef", "amount": "400", "unit": "g" },
+      { "name": "cottage cheese", "amount": "120", "unit": "g" },
+      { "name": "avocado", "amount": "1", "unit": "whole" },
+      { "name": "hot honey", "amount": "2", "unit": "tbsp" },
+      { "name": "garlic", "amount": "3", "unit": "cloves" },
+      { "name": "paprika", "amount": "1", "unit": "tsp" },
+      { "name": "green onions", "amount": "3", "unit": "stalks" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cube sweet potatoes. Toss with olive oil, paprika, and salt. Roast at 220°C.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "While potatoes roast, brown ground beef with garlic until deeply caramelized.", "timeMinutes": 8 },
+      { "number": 3, "instruction": "Season beef with salt, pepper, and a pinch of paprika. Set aside.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Pull sweet potatoes when golden and slightly charred on edges.", "timeMinutes": 15 },
+      { "number": 5, "instruction": "Assemble bowls: sweet potato base, seasoned beef, cottage cheese dollop, sliced avocado.", "timeMinutes": 2 },
+      { "number": 6, "instruction": "Drizzle hot honey over everything. Top with green onions. Devour.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 8,
+      "cookMinutes": 22,
+      "totalMinutes": 30,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "ground beef", "replacement": "ground turkey", "note": "Leaner and $2 cheaper per pound" },
+      { "original": "hot honey", "replacement": "regular honey + chili flakes", "note": "DIY hot honey in 5 seconds" },
+      { "original": "cottage cheese", "replacement": "Greek yogurt", "note": "Similar protein, tangier flavor" }
+    ],
+    "snap": "Hot honey on beef and sweet potato is the combo you didn't know you needed. 42g protein per bowl.",
+    "debate": [
+      { "chefId": "coach-bulk", "text": "Sweet potato, ground beef, cottage cheese. 42g protein. This is how you feed the muscle.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Add chipotle to that beef. FULL HEAT. Don't hold back.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Ground beef plus sweet potatoes? That's $3.50 per serving. Decent.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Hot honey on savory beef is BEAUTIFUL. I didn't think I'd say this but the cottage cheese works.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "30 minutes with oven time. Could you microwave the sweet potato? 10 minutes saved.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Sweet potato provides complex carbs with low glycemic impact. Cottage cheese adds 14g protein per serving.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Roasted sweet potato has better texture. The caramelization matters for the hot honey combo. Trust me.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "That hot honey drizzle over the charred beef edges? That's where flavour LIVES.", "timestamp": 23, "intensity": "explosive" },
+      { "chefId": "speed-demon", "text": "Fine. 30 minutes. But ONLY because the gains are real.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "42g protein. Balanced macros. Tastes like a cheat meal. Gains secured. Let's go!", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:01:00Z"
+  },
+  {
+    "id": "r024",
+    "name": "The Macro-Perfect Mediterranean",
+    "tagline": "The Optimizer calculated the ideal lunch and it tastes like a Greek vacation.",
+    "debateSummary": "The Optimizer measured every macro to the gram. Coach Bulk wanted more chicken but the quinoa-feta-chicken ratio was already mathematically perfect. Max Flavour added harissa and everyone agreed.",
+    "winningChef": "the-optimizer",
+    "ingredients": [
+      { "name": "chicken breast", "amount": "250", "unit": "g" },
+      { "name": "quinoa", "amount": "150", "unit": "g" },
+      { "name": "cucumber", "amount": "1", "unit": "whole" },
+      { "name": "cherry tomatoes", "amount": "150", "unit": "g" },
+      { "name": "feta cheese", "amount": "60", "unit": "g" },
+      { "name": "red onion", "amount": "0.5", "unit": "whole" },
+      { "name": "tzatziki", "amount": "100", "unit": "g" },
+      { "name": "kalamata olives", "amount": "50", "unit": "g" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cook quinoa in salted water. Fluff with a fork and let cool slightly.", "timeMinutes": 15 },
+      { "number": 2, "instruction": "Season chicken breast with oregano, lemon, salt. Grill until internal temp hits 74°C.", "timeMinutes": 8 },
+      { "number": 3, "instruction": "Dice cucumber, halve tomatoes, thinly slice red onion. Combine in a bowl.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Slice chicken against the grain. Portion into bowls over quinoa and vegetables.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Top with crumbled feta, olives, and a generous spoonful of tzatziki.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "totalMinutes": 25,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "quinoa", "replacement": "brown rice", "note": "Cheaper per serving, slightly fewer complete amino acids" },
+      { "original": "chicken breast", "replacement": "rotisserie chicken", "note": "Zero cooking, same protein" },
+      { "original": "feta cheese", "replacement": "goat cheese crumbles", "note": "Tangier, similar calorie profile" }
+    ],
+    "snap": "45g protein, balanced macros, and it tastes like Santorini. The Optimizer wins on data.",
+    "debate": [
+      { "chefId": "the-optimizer", "text": "Quinoa: complete protein, all 9 essential amino acids. Chicken: 31g protein per 100g. The data speaks.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "45g protein per bowl? That's solid. But I'd add more chicken for 55g.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Excess protein beyond 40g per meal shows diminishing returns in absorption. 45g is optimal.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Harissa in the tzatziki. Just a teaspoon. It'll TRANSFORM the whole bowl.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Quinoa is expensive. $4 a bag. Use rice, it's $0.80.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Rice lacks lysine. Quinoa provides complete amino acid coverage per serving.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "Use rotisserie chicken. Skip the grilling. 25 minutes becomes 15. KEEP MOVING.", "timestamp": 20, "intensity": "explosive" },
+      { "chefId": "maximum-junk", "text": "Where's the fun? Add some pita chips. CRUNCH is a nutrient too.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Feta provides calcium at 493mg per 100g. Olives add monounsaturated fats. Every component serves a purpose.", "timestamp": 26, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Fine. The bowl is perfect. But that harissa tzatziki is NON-NEGOTIABLE.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:02:00Z"
+  },
+  {
+    "id": "r025",
+    "name": "Speed Demon's Egg Muffin Blitz",
+    "tagline": "12 protein muffins in 25 minutes. Breakfast sorted for the entire week.",
+    "debateSummary": "Speed Demon turned meal prep into a speed run. Eggs, turkey sausage, and veggies into muffin tins, 20 minutes in the oven, done. Coach Bulk counted the protein and nodded approvingly.",
+    "winningChef": "speed-demon",
+    "ingredients": [
+      { "name": "eggs", "amount": "10", "unit": "whole" },
+      { "name": "spinach", "amount": "1", "unit": "cup" },
+      { "name": "bell pepper", "amount": "1", "unit": "whole" },
+      { "name": "cheddar cheese", "amount": "80", "unit": "g" },
+      { "name": "turkey sausage", "amount": "150", "unit": "g" },
+      { "name": "salt", "amount": "1", "unit": "tsp" },
+      { "name": "black pepper", "amount": "0.5", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Preheat oven to 190°C. Grease a 12-cup muffin tin.", "timeMinutes": 1 },
+      { "number": 2, "instruction": "Dice bell pepper, chop spinach, crumble cooked turkey sausage. Divide among cups.", "timeMinutes": 4 },
+      { "number": 3, "instruction": "Whisk eggs with salt and pepper. Pour evenly into each muffin cup.", "timeMinutes": 2 },
+      { "number": 4, "instruction": "Top each cup with shredded cheddar. Bake for 18-20 minutes until set.", "timeMinutes": 18 },
+      { "number": 5, "instruction": "Cool for 2 minutes, pop out of tin. Store in fridge for up to 5 days.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 7,
+      "cookMinutes": 20,
+      "totalMinutes": 27,
+      "servings": 4,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "turkey sausage", "replacement": "bacon bits", "note": "More indulgent, slightly less protein" },
+      { "original": "cheddar cheese", "replacement": "feta crumbles", "note": "Mediterranean twist, same meltiness" },
+      { "original": "bell pepper", "replacement": "sun-dried tomatoes", "note": "Concentrated flavor punch" }
+    ],
+    "snap": "25 minutes on Sunday, zero minutes Monday through Friday. Speed Demon's kind of meal prep.",
+    "debate": [
+      { "chefId": "speed-demon", "text": "Egg muffins. 25 minutes. Makes 12. Breakfast for the WHOLE WEEK. Ship it.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "15g protein per muffin from eggs and turkey sausage. Grab three, that's 45g protein. Let's go.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Add bacon AND cheese in every single one. BEAUTIFUL.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Eggs contain choline for brain health — 147mg per egg. Ten eggs in this batch is significant.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "A dozen eggs is $3. Turkey sausage is $2. That's $0.40 per muffin. CROWN ME.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Four minutes of prep. FOUR. Then the oven does the work. That's efficiency.", "timestamp": 17, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "At least add some chili flakes to the egg mixture. Give it LIFE.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Chili flakes take two seconds to add. Approved. KEEP MOVING.", "timestamp": 22, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "These freeze perfectly too. Pop two in the microwave for 90 seconds. Gains on demand.", "timestamp": 25, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "12 muffins. 25 minutes. 5 days of breakfast. DONE. NEXT.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:03:00Z"
+  },
+  {
+    "id": "r026",
+    "name": "The Omega Architect Bowl",
+    "tagline": "The Optimizer built the nutritionally perfect salmon bowl. Science has never tasted this good.",
+    "debateSummary": "The Optimizer designed a bowl around omega-3 fatty acids, complete protein, and micronutrient density. The salmon-rice-edamame combo hit every macro target while Max Flavour's sriracha mayo made it actually exciting.",
+    "winningChef": "the-optimizer",
+    "ingredients": [
+      { "name": "salmon fillet", "amount": "300", "unit": "g" },
+      { "name": "sushi rice", "amount": "150", "unit": "g" },
+      { "name": "soy sauce", "amount": "2", "unit": "tbsp" },
+      { "name": "sriracha", "amount": "1", "unit": "tbsp" },
+      { "name": "avocado", "amount": "1", "unit": "whole" },
+      { "name": "edamame", "amount": "100", "unit": "g" },
+      { "name": "cucumber", "amount": "1", "unit": "whole" },
+      { "name": "sesame seeds", "amount": "1", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cook sushi rice according to package. Season with rice vinegar when done.", "timeMinutes": 15 },
+      { "number": 2, "instruction": "Pat salmon dry, season with salt and pepper. Sear skin-side down in hot pan for 4 minutes.", "timeMinutes": 5 },
+      { "number": 3, "instruction": "Flip salmon, cook 3 more minutes. Glaze with soy sauce in the last minute.", "timeMinutes": 4 },
+      { "number": 4, "instruction": "Slice cucumber and avocado. Shell edamame if needed.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Assemble bowls: rice base, sliced salmon, avocado, cucumber, edamame.", "timeMinutes": 2 },
+      { "number": 6, "instruction": "Drizzle with sriracha-mayo mix. Finish with sesame seeds.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 8,
+      "cookMinutes": 22,
+      "totalMinutes": 30,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$$"
+    },
+    "smartSwaps": [
+      { "original": "salmon fillet", "replacement": "canned salmon", "note": "Same omega-3s for a third of the price" },
+      { "original": "sushi rice", "replacement": "cauliflower rice", "note": "Cuts carbs by 80%, lower calorie" },
+      { "original": "avocado", "replacement": "mango slices", "note": "Different healthy fat profile, sweeter contrast" }
+    ],
+    "snap": "2.4g omega-3s, 38g protein, and enough vitamin D for the whole day. The Optimizer's blueprint.",
+    "debate": [
+      { "chefId": "the-optimizer", "text": "Salmon: 2.4g omega-3 fatty acids per fillet. That's 150% of daily recommended intake. Non-negotiable.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Miso glaze on that salmon. The umami will be INSANE.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Fresh salmon is $12 a pound. I'm in PAIN. Use canned salmon. Same omega-3s.", "timestamp": 8, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Edamame adds 17g plant protein and isoflavones. The nutrient density per calorie here is exceptional.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "Air fryer the salmon. 8 minutes. Crispy skin. DONE.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "38g protein per bowl. Add an extra egg for 44g. Feed the muscle.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Sriracha mayo. On everything. That's not health food anymore, that's BEAUTIFUL.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Avocado provides 15g monounsaturated fat for cardiovascular health. Cucumber hydrates. Every element is intentional.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Sesame seeds toasted. Not raw. That's where the FLAVOUR lives.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Omega-3 to omega-6 ratio of 4:1. Vitamin D, selenium, B12 — all covered. Optimal per serving.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:04:00Z"
+  },
+  {
+    "id": "r027",
+    "name": "Budget King's Taco Tuesday Takeover",
+    "tagline": "All the taco flavor for $1.50 per serving. Budget King didn't even break a sweat.",
+    "debateSummary": "Budget King swapped beef for turkey, ditched the tortilla for lettuce, and proved you can have taco night for less than a coffee. Coach Bulk counted the protein and even he was impressed.",
+    "winningChef": "budget-king",
+    "ingredients": [
+      { "name": "ground turkey", "amount": "400", "unit": "g" },
+      { "name": "butter lettuce", "amount": "1", "unit": "head" },
+      { "name": "taco seasoning", "amount": "2", "unit": "tbsp" },
+      { "name": "tomato", "amount": "2", "unit": "whole" },
+      { "name": "avocado", "amount": "1", "unit": "whole" },
+      { "name": "cheddar cheese", "amount": "60", "unit": "g" },
+      { "name": "sour cream", "amount": "60", "unit": "g" },
+      { "name": "lime", "amount": "1", "unit": "whole" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Brown ground turkey in a hot skillet, breaking into crumbles.", "timeMinutes": 6 },
+      { "number": 2, "instruction": "Add taco seasoning and a splash of water. Simmer until sauce thickens.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Separate lettuce into cups. Dice tomato and avocado.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Spoon seasoned turkey into lettuce cups. Top with tomato, avocado, cheese.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Finish with sour cream and a squeeze of lime.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 10,
+      "totalMinutes": 15,
+      "servings": 3,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "ground turkey", "replacement": "ground chicken", "note": "Even cheaper, same lean profile" },
+      { "original": "sour cream", "replacement": "Greek yogurt", "note": "Double the protein, same tang" },
+      { "original": "butter lettuce", "replacement": "corn tortillas", "note": "More filling but adds carbs and cost" }
+    ],
+    "snap": "Taco Tuesday for $1.50 per serving. Budget King reigns supreme, no tortilla required.",
+    "debate": [
+      { "chefId": "budget-king", "text": "Ground turkey: $4 for the whole pack. Lettuce: $1.50. Total cost: $1.50 per serving. CROWN ME.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Use ground BEEF. And add queso drizzle. Live a little!", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Ground beef is $2 more per pound. Turkey tastes just as good with taco seasoning.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Turkey is 30g protein per serving. Lettuce wraps cut the empty carbs. Feed the muscle.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Pickled jalapeños and hot sauce. That's what separates this from boring diet food.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "15 minutes total including chopping. That's a weeknight WIN. Ship it.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "Turkey provides 24g protein per 100g with 50% less saturated fat than beef. Efficient choice.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "AT LEAST put extra cheese on it. EXTRA. CHEESE.", "timestamp": 23, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "Fine. A little cheese. But the lettuce stays. That's $0.10 per wrap versus $0.30 for tortillas.", "timestamp": 26, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Taco Tuesday on a budget. $1.50 per serving. Class dismissed.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:05:00Z"
+  },
+  {
+    "id": "r028",
+    "name": "The 10-Minute Pesto Protein Smash",
+    "tagline": "Speed Demon grabbed rotisserie chicken, pesto, and pasta. Done before you finished reading this.",
+    "debateSummary": "Speed Demon refused to grill anything. Rotisserie chicken, pre-made pesto, and a pot of boiling water. 10 minutes flat. Coach Bulk protested until he saw the 40g protein count.",
+    "winningChef": "speed-demon",
+    "ingredients": [
+      { "name": "penne pasta", "amount": "200", "unit": "g" },
+      { "name": "rotisserie chicken", "amount": "250", "unit": "g" },
+      { "name": "pesto", "amount": "80", "unit": "g" },
+      { "name": "cherry tomatoes", "amount": "150", "unit": "g" },
+      { "name": "fresh mozzarella", "amount": "100", "unit": "g" },
+      { "name": "spinach", "amount": "1", "unit": "cup" },
+      { "name": "olive oil", "amount": "1", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil penne in salted water until al dente. Reserve half cup pasta water.", "timeMinutes": 8 },
+      { "number": 2, "instruction": "While pasta cooks, shred rotisserie chicken and halve cherry tomatoes.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Drain pasta. Toss immediately with pesto, a splash of pasta water, and spinach.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Fold in shredded chicken and tomatoes. Tear mozzarella over the top.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 2,
+      "cookMinutes": 10,
+      "totalMinutes": 12,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "rotisserie chicken", "replacement": "grilled chicken breast", "note": "Leaner but adds 15 minutes of cooking" },
+      { "original": "pesto", "replacement": "homemade basil pesto", "note": "Fresher flavor, saves $4 per batch" },
+      { "original": "fresh mozzarella", "replacement": "shredded parmesan", "note": "Sharper flavor, less gooey" }
+    ],
+    "snap": "10 minutes. Rotisserie chicken. Jar of pesto. Speed Demon doesn't believe in effort.",
+    "debate": [
+      { "chefId": "speed-demon", "text": "Rotisserie chicken. Pre-made pesto. Boil pasta. 10 MINUTES. Done.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "Wait — rotisserie chicken plus mozzarella is actually 40g protein. I can respect that.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "At least use GOOD pesto. Not that jarred stuff with canola oil.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Good pesto, bad pesto — it all tastes great in 10 minutes. KEEP MOVING.", "timestamp": 11, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "Rotisserie chicken is $5. That's the whole protein budget. Make your own pesto, save $4.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Spinach adds iron and folate. Cherry tomatoes provide lycopene. Reasonable nutrient coverage.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Tear that mozzarella into big chunks. It gets all warm and gooey. BEAUTIFUL.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Fine. But add chili flakes. Just a pinch. Give it some LIFE.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "Chili flakes take one second. Approved. Now we're at 10 minutes and 1 second. DONE.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "Pasta boiled. Chicken shredded. Pesto tossed. Ship it. NEXT.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:06:00Z"
+  },
+  {
+    "id": "r029",
+    "name": "The Garlic Parmesan Dream Machine",
+    "tagline": "Maximum Junk built a pasta so creamy it should be classified as a controlled substance.",
+    "debateSummary": "Maximum Junk demanded maximum cream, maximum garlic, maximum parmesan. The Optimizer calculated the calorie count and left the room. Budget King stayed because it cost $3.",
+    "winningChef": "maximum-junk",
+    "ingredients": [
+      { "name": "fettuccine", "amount": "200", "unit": "g" },
+      { "name": "heavy cream", "amount": "200", "unit": "ml" },
+      { "name": "parmesan", "amount": "80", "unit": "g" },
+      { "name": "garlic", "amount": "5", "unit": "cloves" },
+      { "name": "butter", "amount": "3", "unit": "tbsp" },
+      { "name": "Italian seasoning", "amount": "1", "unit": "tsp" },
+      { "name": "black pepper", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil fettuccine in salted water until al dente. Reserve one cup pasta water.", "timeMinutes": 9 },
+      { "number": 2, "instruction": "Melt butter in a pan. Add sliced garlic and cook until golden and fragrant.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Pour in heavy cream and Italian seasoning. Simmer gently for 2 minutes.", "timeMinutes": 2 },
+      { "number": 4, "instruction": "Toss in drained pasta. Add parmesan gradually while tossing until sauce is silky.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Crack generous black pepper over the top. Pile extra parmesan on everything.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 2,
+      "cookMinutes": 13,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "heavy cream", "replacement": "half-and-half", "note": "Lighter but still creamy enough" },
+      { "original": "fettuccine", "replacement": "any long pasta", "note": "Spaghetti, linguine — sauce clings to all of them" },
+      { "original": "butter", "replacement": "olive oil", "note": "Different flavor profile, lighter finish" }
+    ],
+    "snap": "Five cloves of garlic, a river of cream, and a blizzard of parmesan. Maximum Junk's masterpiece.",
+    "debate": [
+      { "chefId": "maximum-junk", "text": "Cream. Garlic. Parmesan. Butter. This is how comfort food SHOULD be made. BEAUTIFUL.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "That's 750 calories per serving. The saturated fat alone exceeds daily limits.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Did I ask about calories? I said CREAM. GARLIC. PARMESAN.", "timestamp": 7, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "Pasta, cream, cheese. That's $3 total. I'll allow it.", "timestamp": 10, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "FIVE cloves of garlic. Minimum. Don't you dare go under five. That's where flavour LIVES.", "timestamp": 13, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "15 minutes including boiling water. Approved. Move.", "timestamp": 16, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "At least add grilled chicken on top. Get some protein in there. Feed the muscle.", "timestamp": 19, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Chicken on top? Fine. But the sauce stays EXACTLY as it is. Trust the process.", "timestamp": 22, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "I'm documenting this for science. As a cautionary example.", "timestamp": 25, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Extra parmesan on top. ALWAYS extra parmesan. That's comfort food royalty.", "timestamp": 28, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:07:00Z"
+  },
+  {
+    "id": "r030",
+    "name": "The Pepper Prophet's Cacio e Pepe",
+    "tagline": "Max Flavour proved that three ingredients can make grown adults cry happy tears.",
+    "debateSummary": "Max Flavour insisted on real Pecorino Romano and freshly cracked pepper — nothing else. The technique-heavy emulsion had Speed Demon sweating, but the result was transcendent.",
+    "winningChef": "max-flavour",
+    "ingredients": [
+      { "name": "spaghetti", "amount": "200", "unit": "g" },
+      { "name": "Pecorino Romano", "amount": "100", "unit": "g" },
+      { "name": "black peppercorns", "amount": "2", "unit": "tbsp" },
+      { "name": "pasta water", "amount": "1", "unit": "cup" },
+      { "name": "olive oil", "amount": "1", "unit": "tbsp" },
+      { "name": "parmesan", "amount": "30", "unit": "g" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil spaghetti in moderately salted water (less than usual — the cheese is salty).", "timeMinutes": 8 },
+      { "number": 2, "instruction": "Toast whole peppercorns in a dry pan until fragrant. Crack coarsely.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Add a ladle of starchy pasta water to pepper pan. Create a slurry.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Pull pasta into pepper water 2 minutes early. Toss vigorously off heat.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Add finely grated Pecorino in three additions, tossing constantly to emulsify.", "timeMinutes": 2 },
+      { "number": 6, "instruction": "Finish with parmesan and one more crack of pepper. Serve immediately.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 13,
+      "totalMinutes": 16,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "Pecorino Romano", "replacement": "parmesan", "note": "Milder, easier to find, but not the same punch" },
+      { "original": "spaghetti", "replacement": "tonnarelli", "note": "Traditional Roman choice, thicker and more absorbent" },
+      { "original": "black peppercorns", "replacement": "mixed peppercorn blend", "note": "More complex but less traditional" }
+    ],
+    "snap": "Three ingredients. Zero shortcuts. The emulsion technique is everything. Max Flavour's Roman pilgrimage.",
+    "debate": [
+      { "chefId": "max-flavour", "text": "Cacio e pepe. Three ingredients. Pure technique. This is where flavour LIVES.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "15 minutes. I like the speed. But the technique sounds fussy.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Toast the peppercorns WHOLE first. Then crack them. The oils release differently. Non-negotiable.", "timestamp": 8, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "Real Pecorino is $8 for a small block. Use parmesan, that costs pennies.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Parmesan is NOT Pecorino. The sheep's milk tang is the ENTIRE point.", "timestamp": 14, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Pecorino provides 22g protein per 100g and 900mg calcium. Nutrient-dense despite the simplicity.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Add cream. It'll be even creamier.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "CREAM?! In cacio e pepe?! That is a DECLARATION OF WAR. The pasta water emulsion IS the cream.", "timestamp": 22, "intensity": "explosive" },
+      { "chefId": "coach-bulk", "text": "Pecorino cheese alone gives 14g protein per serving. Pair with a side of grilled chicken for gains.", "timestamp": 25, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "Fine. It's 16 minutes. The technique better be worth it. Ticking clock.", "timestamp": 29, "intensity": "heated" }
+    ],
+    "createdAt": "2026-02-22T10:08:00Z"
+  },
+  {
+    "id": "r031",
+    "name": "Budget King's Turkish Fire Noodles",
+    "tagline": "Caramelized tomato paste, spicy butter, and cold yogurt — all for $2.",
+    "debateSummary": "Budget King saw the ingredient list and nearly wept with joy. Tomato paste, butter, chili flakes, yogurt. Total cost: $2. Max Flavour fought for double chili but even he couldn't argue with the price.",
+    "winningChef": "budget-king",
+    "ingredients": [
+      { "name": "pasta", "amount": "200", "unit": "g" },
+      { "name": "tomato paste", "amount": "3", "unit": "tbsp" },
+      { "name": "butter", "amount": "3", "unit": "tbsp" },
+      { "name": "chili flakes", "amount": "1", "unit": "tsp" },
+      { "name": "Greek yogurt", "amount": "100", "unit": "g" },
+      { "name": "garlic", "amount": "3", "unit": "cloves" },
+      { "name": "dried mint", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil pasta in salted water until al dente. Reserve half cup pasta water.", "timeMinutes": 9 },
+      { "number": 2, "instruction": "Melt butter in a pan. Fry tomato paste until it darkens and caramelizes.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Add minced garlic and chili flakes. Stir for 30 seconds.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Toss drained pasta into the sauce with a splash of pasta water. Coat evenly.", "timeMinutes": 1 },
+      { "number": 5, "instruction": "Plate pasta. Dollop cold yogurt on top. Sprinkle dried mint.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 2,
+      "cookMinutes": 13,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "Greek yogurt", "replacement": "sour cream", "note": "Richer but fewer protein grams" },
+      { "original": "butter", "replacement": "olive oil", "note": "Lighter but loses the nutty butter flavor" },
+      { "original": "dried mint", "replacement": "fresh parsley", "note": "Different herb profile, equally fresh" }
+    ],
+    "snap": "Tomato paste costs $0.99. The whole plate is $2. Budget King rules from the throne of thrift.",
+    "debate": [
+      { "chefId": "budget-king", "text": "Tomato paste: $0.99. Butter: already have it. Pasta: $1. This entire meal is $2. CROWN ME.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Caramelize that tomato paste until it's DARK. That's where all the umami hides.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Extra butter in the sauce. You can never have too much butter. Trust the process.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "Greek yogurt topping adds 10g protein per serving. Probiotics as a bonus.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "15 minutes flat. Pasta boils while sauce cooks. Zero wasted time. DONE.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Double the chili flakes. DOUBLE THEM. This needs FULL HEAT.", "timestamp": 17, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "Chili flakes cost nothing. Add as many as you want. Still under $2.", "timestamp": 19, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "The yogurt gives it protein. Add a fried egg on top for another 6g. Let's go.", "timestamp": 22, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Cold yogurt on hot spicy pasta is genius. Hot-cold contrast for zero extra cost.", "timestamp": 25, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "$2 per serving. Looks like a restaurant plate. Tastes incredible. I'm in pain — from happiness.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:09:00Z"
+  },
+  {
+    "id": "r032",
+    "name": "Maximum Junk's Pink Sauce Party",
+    "tagline": "Maximum Junk added cream to tomato sauce and created the ultimate comfort pasta.",
+    "debateSummary": "Maximum Junk wanted vodka sauce but didn't have vodka. So he just combined tomato sauce and cream and called it pink sauce. The Optimizer objected. Nobody cared. It was incredible.",
+    "winningChef": "maximum-junk",
+    "ingredients": [
+      { "name": "penne pasta", "amount": "200", "unit": "g" },
+      { "name": "canned crushed tomatoes", "amount": "400", "unit": "g" },
+      { "name": "heavy cream", "amount": "120", "unit": "ml" },
+      { "name": "garlic", "amount": "4", "unit": "cloves" },
+      { "name": "basil", "amount": "1", "unit": "handful" },
+      { "name": "parmesan", "amount": "50", "unit": "g" },
+      { "name": "olive oil", "amount": "2", "unit": "tbsp" },
+      { "name": "onion", "amount": "0.5", "unit": "whole" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil penne in salted water until al dente.", "timeMinutes": 9 },
+      { "number": 2, "instruction": "Sauté diced onion and garlic in olive oil until soft and fragrant.", "timeMinutes": 4 },
+      { "number": 3, "instruction": "Add crushed tomatoes. Simmer for 5 minutes until slightly thickened.", "timeMinutes": 5 },
+      { "number": 4, "instruction": "Pour in heavy cream. Stir until the sauce turns a gorgeous pink.", "timeMinutes": 1 },
+      { "number": 5, "instruction": "Toss in drained pasta and half the parmesan. Stir until coated.", "timeMinutes": 1 },
+      { "number": 6, "instruction": "Top with remaining parmesan and torn basil leaves.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 17,
+      "totalMinutes": 20,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "heavy cream", "replacement": "coconut cream", "note": "Dairy-free option with slight sweetness" },
+      { "original": "canned crushed tomatoes", "replacement": "jarred marinara", "note": "Even faster, pre-seasoned" },
+      { "original": "parmesan", "replacement": "pecorino", "note": "Sharper, saltier — more punch per gram" }
+    ],
+    "snap": "Tomato sauce plus cream equals pink sauce equals happiness. Maximum Junk keeps it simple and maximum.",
+    "debate": [
+      { "chefId": "maximum-junk", "text": "Tomato sauce. Heavy cream. Mix them together. BEAUTIFUL. That's called pink sauce.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Adding cream to tomato sauce adds 200 calories per serving with zero nutritional benefit.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "ZERO nutritional benefit? The benefit is HAPPINESS. That's a nutrient.", "timestamp": 7, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "Four cloves of garlic in that sauce base. MINIMUM. Give it LIFE.", "timestamp": 10, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "20 minutes including pasta. Reasonable. Could be 15 if you use jarred sauce. KEEP MOVING.", "timestamp": 13, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Canned tomatoes are $1. Cream is $2 for the carton. This whole plate is $2.50. Poetry.", "timestamp": 16, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Add grilled chicken on top. Transform it from comfort food to a complete meal. 35g protein.", "timestamp": 19, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Add vodka next time for the REAL experience. But even without it? Trust the process.", "timestamp": 22, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Fresh basil torn on top, not dried. The aroma is non-negotiable.", "timestamp": 25, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "MORE PARMESAN on top. There's no such thing as enough parmesan. That's comfort food royalty.", "timestamp": 28, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:10:00Z"
+  },
+  {
+    "id": "r033",
+    "name": "The Optimizer's Lemon Cloud Pasta",
+    "tagline": "Ricotta + lemon + peas = the lightest, brightest pasta The Optimizer ever approved.",
+    "debateSummary": "The Optimizer found a pasta that's creamy without cream, bright with lemon, and packs hidden protein from ricotta. Even Maximum Junk admitted the lemon zest was a vibe.",
+    "winningChef": "the-optimizer",
+    "ingredients": [
+      { "name": "orecchiette pasta", "amount": "200", "unit": "g" },
+      { "name": "ricotta", "amount": "150", "unit": "g" },
+      { "name": "lemon", "amount": "1", "unit": "whole" },
+      { "name": "parmesan", "amount": "40", "unit": "g" },
+      { "name": "basil", "amount": "1", "unit": "handful" },
+      { "name": "olive oil", "amount": "2", "unit": "tbsp" },
+      { "name": "frozen peas", "amount": "100", "unit": "g" },
+      { "name": "black pepper", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil pasta in salted water. Add frozen peas in the last 2 minutes of cooking.", "timeMinutes": 10 },
+      { "number": 2, "instruction": "In a bowl, mix ricotta with lemon zest, juice, and half the parmesan.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Drain pasta and peas, reserving a cup of pasta water.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Toss hot pasta with ricotta mixture and a splash of pasta water until creamy.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Finish with olive oil, remaining parmesan, torn basil, and cracked pepper.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 12,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "ricotta", "replacement": "blended cottage cheese", "note": "Higher protein, slightly tangier" },
+      { "original": "frozen peas", "replacement": "asparagus tips", "note": "Seasonal upgrade, similar fresh taste" },
+      { "original": "orecchiette pasta", "replacement": "protein pasta shells", "note": "Doubles the protein content" }
+    ],
+    "snap": "Creamy ricotta, bright lemon, sweet peas. The lightest pasta you'll eat this year. Zero cream required.",
+    "debate": [
+      { "chefId": "the-optimizer", "text": "Ricotta provides 14g protein per serving without heavy cream. Lemon adds vitamin C for iron absorption.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Ricotta? Peas? This sounds like a diet plate disguised as dinner.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "The ricotta creates a cream-like coating at 40% fewer calories than actual cream. Efficiency.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Lemon ZEST. Not just juice. The oils in the zest carry 90% of the citrus aroma.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "15 minutes. No separate sauce pan. Peas cook with the pasta. That's smart. DONE.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Ricotta, lemon, peas, pasta. Total cost: $3.50. That costs pennies per bite.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Add some grilled shrimp on top. Take the protein from decent to excellent.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Peas add 5g fiber per serving plus additional plant protein. Every ingredient serves a nutritional purpose.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Okay the lemon zest actually SLAPS. I'll admit that. This is DANGEROUSLY good!", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Light, bright, nutrient-dense. 18g protein per serving without adding meat. Optimal.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:11:00Z"
+  },
+  {
+    "id": "r034",
+    "name": "The Vodka Rigatoni Reckoning",
+    "tagline": "Max Flavour took Gigi Hadid's viral pasta and cranked the heat to eleven.",
+    "debateSummary": "Max Flavour insisted on real vodka, doubled the chili flakes, and used San Marzano tomato paste. Budget King cried about the vodka cost. Speed Demon respected the 20-minute runtime.",
+    "winningChef": "max-flavour",
+    "ingredients": [
+      { "name": "rigatoni", "amount": "200", "unit": "g" },
+      { "name": "tomato paste", "amount": "3", "unit": "tbsp" },
+      { "name": "heavy cream", "amount": "150", "unit": "ml" },
+      { "name": "vodka", "amount": "60", "unit": "ml" },
+      { "name": "chili flakes", "amount": "1.5", "unit": "tsp" },
+      { "name": "garlic", "amount": "4", "unit": "cloves" },
+      { "name": "olive oil", "amount": "2", "unit": "tbsp" },
+      { "name": "parmesan", "amount": "60", "unit": "g" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil rigatoni in heavily salted water until al dente.", "timeMinutes": 10 },
+      { "number": 2, "instruction": "Sauté minced garlic in olive oil. Add tomato paste, fry until dark and caramelized.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Add chili flakes, then deglaze with vodka. Let alcohol cook off for 2 minutes.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Pour in heavy cream. Stir until sauce is smooth and blush-colored.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Toss in drained rigatoni with a splash of pasta water. Add parmesan.", "timeMinutes": 2 },
+      { "number": 6, "instruction": "Plate with extra chili flakes and parmesan on top.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 18,
+      "totalMinutes": 21,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "vodka", "replacement": "pasta water", "note": "Alcohol-free version, slightly less silky" },
+      { "original": "heavy cream", "replacement": "cashew cream", "note": "Dairy-free, similar richness" },
+      { "original": "rigatoni", "replacement": "penne", "note": "Both trap sauce perfectly in the tubes" }
+    ],
+    "snap": "Vodka, cream, tomato paste, and aggressive chili flakes. Max Flavour's Italian vendetta on bland food.",
+    "debate": [
+      { "chefId": "max-flavour", "text": "Vodka rigatoni. Caramelize the tomato paste DARK. Chili flakes doubled. FULL HEAT.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "You're putting VODKA in pasta? That's $15 a bottle! Skip it, use pasta water.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "The vodka strips acidity from the tomato and makes the sauce SILKY. Non-negotiable.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Extra cream. Extra cheese. Extra EVERYTHING. Trust the process.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "The vodka evaporates during cooking. Alcohol content is negligible per serving. Interesting technique.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "20 minutes total. The vodka burns off fast. Keep it moving. I'm in.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Add Italian sausage crumbles. Takes protein from 12g to 35g. Gains with sauce.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "The chili flakes bloom in the hot oil. That's where the heat LIVES. Don't add them late.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Fine. Use the cheap vodka. The pasta doesn't need Grey Goose.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Caramelized paste, vodka silk, chili fire, parmesan snow. This is FLAVOUR perfection.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:12:00Z"
+  },
+  {
+    "id": "r035",
+    "name": "The Red Consommé Ritual",
+    "tagline": "Max Flavour slow-braised birria tacos that make taco shops nervous.",
+    "debateSummary": "Max Flavour demanded authentic dried chiles and a proper three-hour braise. Speed Demon nearly walked out. But when the consommé-dipped tortillas hit the griddle, even he shut up and ate.",
+    "winningChef": "max-flavour",
+    "ingredients": [
+      { "name": "beef chuck", "amount": "700", "unit": "g" },
+      { "name": "guajillo chiles", "amount": "4", "unit": "whole" },
+      { "name": "ancho chiles", "amount": "3", "unit": "whole" },
+      { "name": "Oaxaca cheese", "amount": "150", "unit": "g" },
+      { "name": "corn tortillas", "amount": "12", "unit": "whole" },
+      { "name": "onion", "amount": "1", "unit": "whole" },
+      { "name": "garlic", "amount": "5", "unit": "cloves" },
+      { "name": "cilantro", "amount": "1", "unit": "bunch" },
+      { "name": "lime", "amount": "2", "unit": "whole" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Toast and rehydrate dried chiles. Blend with garlic, onion, and soaking liquid.", "timeMinutes": 15 },
+      { "number": 2, "instruction": "Sear beef chuck on all sides until deeply browned.", "timeMinutes": 8 },
+      { "number": 3, "instruction": "Pour chile sauce over beef. Add enough water to cover. Braise covered at 160°C for 2.5 hours.", "timeMinutes": 150 },
+      { "number": 4, "instruction": "Shred the fork-tender beef. Skim the red fat from the consommé.", "timeMinutes": 5 },
+      { "number": 5, "instruction": "Dip tortillas in red consommé. Fill with beef and cheese. Griddle until crispy.", "timeMinutes": 10 },
+      { "number": 6, "instruction": "Serve with extra consommé for dipping. Garnish with cilantro and lime.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 25,
+      "cookMinutes": 165,
+      "totalMinutes": 190,
+      "servings": 4,
+      "difficulty": "adventurous",
+      "costTier": "$$$"
+    },
+    "smartSwaps": [
+      { "original": "beef chuck", "replacement": "beef cheeks", "note": "Even more collagen, more unctuous when braised" },
+      { "original": "Oaxaca cheese", "replacement": "mozzarella", "note": "Similar stretch and melt, easier to find" },
+      { "original": "guajillo chiles", "replacement": "ancho + pasilla blend", "note": "Different heat profile, equally authentic" }
+    ],
+    "snap": "Three hours of braising. Consommé-dipped tortillas. Melty cheese. This is the taco that ends all arguments.",
+    "debate": [
+      { "chefId": "max-flavour", "text": "Real birria. Dried guajillo and ancho chiles. Three hour braise. No shortcuts. FULL HEAT.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "speed-demon", "text": "THREE HOURS?! I could cook 12 different meals in that time. Instant pot. 45 minutes. DONE.", "timestamp": 4, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "An instant pot will NEVER develop the same depth. The low braise breaks down collagen properly.", "timestamp": 7, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Beef chuck is $6 per pound. For 4 servings that's $3 per taco plate. I can work with that.", "timestamp": 10, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "EXTRA CHEESE. Double dip the tortilla. This is BEAUTIFUL.", "timestamp": 13, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "Beef chuck has 26g protein per 100g. Four servings at 40g protein each. Feed the muscle.", "timestamp": 16, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "The dried chiles contain capsaicin which increases metabolic rate by 5%. Interesting thermogenic effect.", "timestamp": 19, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Dip the tortilla in that red consommé fat. That's where ALL the flavour lives.", "timestamp": 22, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "I hate the time. But I ate two and I'm not complaining. Grudging respect.", "timestamp": 25, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Chile-braised beef, consommé-dipped tortilla, melted Oaxaca. Flavour doesn't wait for anyone.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:13:00Z"
+  },
+  {
+    "id": "r036",
+    "name": "The Bulgogi Blitz Taco",
+    "tagline": "Speed Demon fused Korean BBQ with street tacos in under 20 minutes.",
+    "debateSummary": "Speed Demon pre-sliced the beef paper-thin so it cooks in 3 minutes flat. Max Flavour added gochujang to the marinade. The kimchi-topped taco was born in record time.",
+    "winningChef": "speed-demon",
+    "ingredients": [
+      { "name": "beef sirloin", "amount": "350", "unit": "g" },
+      { "name": "corn tortillas", "amount": "8", "unit": "whole" },
+      { "name": "kimchi", "amount": "100", "unit": "g" },
+      { "name": "sriracha mayo", "amount": "3", "unit": "tbsp" },
+      { "name": "soy sauce", "amount": "3", "unit": "tbsp" },
+      { "name": "sesame oil", "amount": "1", "unit": "tbsp" },
+      { "name": "ginger", "amount": "1", "unit": "thumb" },
+      { "name": "cilantro", "amount": "1", "unit": "handful" },
+      { "name": "sesame seeds", "amount": "1", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Slice beef paper-thin against the grain. Toss with soy sauce, sesame oil, and grated ginger.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Heat a screaming hot pan. Sear beef in a single layer for 90 seconds per side.", "timeMinutes": 4 },
+      { "number": 3, "instruction": "Warm tortillas on the pan for 20 seconds each side.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Load tortillas with seared beef, kimchi, and sriracha mayo.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Top with cilantro and sesame seeds. Squeeze lime if you have it.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 7,
+      "cookMinutes": 10,
+      "totalMinutes": 17,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "beef sirloin", "replacement": "ground beef", "note": "Even faster to cook, saves $5 per pound" },
+      { "original": "kimchi", "replacement": "pickled cabbage slaw", "note": "Less funky, still crunchy and tangy" },
+      { "original": "sriracha mayo", "replacement": "gochujang mayo", "note": "Deeper Korean flavor, more authentic" }
+    ],
+    "snap": "Korean BBQ beef. Street taco format. Kimchi on top. 17 minutes. Speed Demon's fusion masterpiece.",
+    "debate": [
+      { "chefId": "speed-demon", "text": "Slice beef thin. Sear 90 seconds. Load tacos. 17 minutes total. Let's GO.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Add gochujang to that marinade. The fermented chili paste takes it to another LEVEL.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "One squeeze of gochujang. 3 seconds. Approved. KEEP MOVING.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Beef sirloin at $8 per pound. Use ground beef for $4. Same flavor with taco seasoning.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Sriracha mayo drizzle. That pink sauce on the beef is BEAUTIFUL.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Kimchi adds probiotics and 1.5g fiber per serving. Fermented foods support gut health.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Double the beef for 40g protein per serving. Feed the muscle, Korean style.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "Paper-thin slices cook in 90 SECONDS. That's the hack. Thick cuts waste time.", "timestamp": 23, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "Sesame seeds toasted, not raw. The nutty aroma is non-negotiable.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "17 minutes. Korean-Mexican fusion. Plated and eaten. Ship it. NEXT.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:14:00Z"
+  },
+  {
+    "id": "r037",
+    "name": "Maximum Junk's Cheese-Crusted Burrito Bomb",
+    "tagline": "A burrito wrapped in a grilled cheese. Maximum Junk has ascended.",
+    "debateSummary": "Maximum Junk griddled cheese directly onto the outside of a loaded burrito. The Optimizer left the chat. Budget King stayed because the whole thing cost $3. It was glorious.",
+    "winningChef": "maximum-junk",
+    "ingredients": [
+      { "name": "flour tortilla", "amount": "2", "unit": "large" },
+      { "name": "ground beef", "amount": "250", "unit": "g" },
+      { "name": "cheddar cheese", "amount": "120", "unit": "g" },
+      { "name": "sour cream", "amount": "60", "unit": "g" },
+      { "name": "rice", "amount": "100", "unit": "g" },
+      { "name": "canned beans", "amount": "200", "unit": "g" },
+      { "name": "taco seasoning", "amount": "2", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cook rice. Brown ground beef with taco seasoning. Heat beans.", "timeMinutes": 10 },
+      { "number": 2, "instruction": "Layer rice, beans, beef, sour cream, and half the cheese in the tortilla. Fold tight.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Spread remaining shredded cheese on a hot griddle. Place burrito seam-down on cheese.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Let cheese melt and crisp into a golden crust around the tortilla.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Flip carefully. Press down. Let the other side get crispy too.", "timeMinutes": 3 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 18,
+      "totalMinutes": 21,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "ground beef", "replacement": "ground turkey", "note": "Leaner, still holds the taco seasoning well" },
+      { "original": "sour cream", "replacement": "Greek yogurt", "note": "Same tang with protein bonus" },
+      { "original": "cheddar cheese", "replacement": "pepper jack", "note": "Adds heat to the crispy shell" }
+    ],
+    "snap": "A burrito with a cheese crust exterior. Maximum Junk just won the burrito arms race.",
+    "debate": [
+      { "chefId": "maximum-junk", "text": "Put the burrito ON TOP of melting cheese on the griddle. The outside becomes CRISPY CHEESE. BEAUTIFUL.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "You're wrapping a burrito in a second layer of melted cheese. The calorie density is extraordinary.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "EXACTLY. You understand perfectly. MORE CHEESE.", "timestamp": 7, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Ground beef, rice, canned beans, cheese. That's $3 total for two loaded burritos. Not bad.", "timestamp": 10, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "Pre-cook the beef in bulk. Assembly takes 5 minutes. Griddling takes 6. I'm in.", "timestamp": 13, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Add pickled jalapeños inside. The acidity cuts through all that cheese.", "timestamp": 16, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "Ground beef plus beans is 35g protein. Could be worse. Add more beef for 45g.", "timestamp": 19, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "The cheese CRUNCHES when you bite through it. Then you hit the soft burrito. Two textures. INCREDIBLE.", "timestamp": 22, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "I'm going to pretend I didn't see this recipe. For my own mental health.", "timestamp": 25, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Cheese on the OUTSIDE. Cheese on the INSIDE. Trust the process. That's comfort food royalty.", "timestamp": 28, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:15:00Z"
+  },
+  {
+    "id": "r038",
+    "name": "The Optimizer's Baja Blueprint",
+    "tagline": "The Optimizer deconstructed fish tacos into a science experiment you actually want to eat.",
+    "debateSummary": "The Optimizer analyzed every component of fish tacos for nutritional efficiency. Baked fish instead of fried, yogurt-lime crema instead of sour cream, and doubled the cabbage for fiber. It was annoyingly good.",
+    "winningChef": "the-optimizer",
+    "ingredients": [
+      { "name": "white fish fillets", "amount": "300", "unit": "g" },
+      { "name": "corn tortillas", "amount": "8", "unit": "whole" },
+      { "name": "red cabbage", "amount": "150", "unit": "g" },
+      { "name": "lime", "amount": "2", "unit": "whole" },
+      { "name": "Greek yogurt", "amount": "80", "unit": "g" },
+      { "name": "chipotle pepper", "amount": "1", "unit": "whole" },
+      { "name": "avocado", "amount": "1", "unit": "whole" },
+      { "name": "cilantro", "amount": "1", "unit": "bunch" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Season fish with cumin, paprika, and lime juice. Bake at 200°C for 12 minutes.", "timeMinutes": 14 },
+      { "number": 2, "instruction": "Shred cabbage finely. Toss with lime juice and a pinch of salt.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Blend Greek yogurt with chipotle, lime, and a pinch of salt for the crema.", "timeMinutes": 2 },
+      { "number": 4, "instruction": "Warm tortillas on a dry pan. Flake fish into pieces.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Assemble: tortilla, cabbage bed, fish flakes, avocado slices, crema drizzle.", "timeMinutes": 3 },
+      { "number": 6, "instruction": "Garnish with cilantro and an extra squeeze of lime.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 8,
+      "cookMinutes": 18,
+      "totalMinutes": 26,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$$"
+    },
+    "smartSwaps": [
+      { "original": "white fish fillets", "replacement": "frozen tilapia", "note": "Same flaky texture, $3 cheaper" },
+      { "original": "Greek yogurt", "replacement": "sour cream", "note": "Classic crema, fewer protein grams" },
+      { "original": "chipotle pepper", "replacement": "smoked paprika + cayenne", "note": "Approximates the smoky heat" }
+    ],
+    "snap": "Baked not fried, yogurt not sour cream, double the cabbage. Baja tacos, optimized to perfection.",
+    "debate": [
+      { "chefId": "the-optimizer", "text": "Baked fish: 24g protein per fillet, 1g fat. Versus fried: same protein, 12g fat. The data is clear.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Beer-batter that fish. Baja-style. The crispy coating is where all the FLAVOUR lives.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Beer batter adds 180 empty calories per serving. Baking with spices achieves flavor at zero caloric cost.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Frozen tilapia is $3 for the whole batch. Use that instead of fresh cod.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "At LEAST add cheese. Fish tacos without cheese? That's just sad.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Greek yogurt crema provides 6g protein and probiotics. Sour cream provides zero benefit per serving.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Bake the fish while you prep the rest. 26 minutes total. Could be faster but acceptable.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "28g protein per serving from the fish alone. Add an extra fillet and you're at 40g. Let's go.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "The chipotle crema saves this from being boring. At least THAT has some fire.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Red cabbage: vitamin C, fiber, anthocyanins. Every element serves a purpose. Optimal per serving.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:16:00Z"
+  },
+  {
+    "id": "r039",
+    "name": "Maximum Junk's Breakfast Bomb Burrito",
+    "tagline": "Eggs, bacon, cheese, crispy potatoes — all wrapped in a warm tortilla. No regrets.",
+    "debateSummary": "Maximum Junk loaded a tortilla with every breakfast item in the fridge. Crispy hash browns, fluffy eggs, melted cheese, and bacon. The Optimizer didn't even try to intervene.",
+    "winningChef": "maximum-junk",
+    "ingredients": [
+      { "name": "flour tortilla", "amount": "2", "unit": "large" },
+      { "name": "eggs", "amount": "4", "unit": "whole" },
+      { "name": "bacon", "amount": "4", "unit": "slices" },
+      { "name": "frozen hash browns", "amount": "150", "unit": "g" },
+      { "name": "cheddar cheese", "amount": "80", "unit": "g" },
+      { "name": "salsa", "amount": "60", "unit": "g" },
+      { "name": "avocado", "amount": "0.5", "unit": "whole" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Crisp frozen hash browns in a hot pan with a little oil until golden.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Cook bacon until crispy. Set aside on paper towel.", "timeMinutes": 4 },
+      { "number": 3, "instruction": "Scramble eggs gently in the bacon fat until just set. Season generously.", "timeMinutes": 2 },
+      { "number": 4, "instruction": "Warm tortillas. Layer hash browns, eggs, crumbled bacon, cheese, avocado, salsa.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Fold tight like a burrito. Optional: griddle seam-down for a crispy outside.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 2,
+      "cookMinutes": 13,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "bacon", "replacement": "turkey bacon", "note": "Leaner, still salty and crispy" },
+      { "original": "frozen hash browns", "replacement": "leftover roasted potatoes", "note": "Even crispier when re-fried" },
+      { "original": "cheddar cheese", "replacement": "pepper jack", "note": "Adds a kick of heat" }
+    ],
+    "snap": "Bacon, eggs, cheese, hash browns, all in a tortilla. Maximum Junk's breakfast doesn't negotiate.",
+    "debate": [
+      { "chefId": "maximum-junk", "text": "Eggs scrambled in BACON FAT. Hash browns. Melted cheese. Wrapped in a tortilla. BEAUTIFUL.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Scrambling eggs in bacon fat adds 8g of saturated fat per serving. That's 40% of daily limits.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "The bacon fat IS the seasoning. Trust the process.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Frozen hash browns. Skip the potato prep. 15 minutes total. DONE.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Eggs are $0.30 each. Bacon $3 for the pack. Total: $2.50 per burrito. That costs pennies.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Four eggs is 24g protein. Add the bacon that's 36g. Not bad for breakfast. Feed the muscle.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Hot sauce INSIDE the burrito. Before you fold. The heat should be in every bite.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Griddle the outside for 30 seconds. Crispy tortilla shell. Extra 30 seconds well spent.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "The cheese melts into the eggs. The hash browns crunch. Every bite is different. THAT'S breakfast.", "timestamp": 26, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Breakfast burrito SUPREME. No diet version. No compromises. That's comfort food royalty.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:17:00Z"
+  },
+  {
+    "id": "r040",
+    "name": "Budget King's Scramble Cloud Pancakes",
+    "tagline": "Torn-apart pancakes caramelized in butter. Budget King made Austrian food for $1.50.",
+    "debateSummary": "Budget King discovered Kaiserschmarrn — scrambled pancakes — and realized it costs almost nothing to make. Flour, eggs, milk, butter, sugar. Maximum Junk wanted chocolate chips. Budget King said no because they cost extra.",
+    "winningChef": "budget-king",
+    "ingredients": [
+      { "name": "all-purpose flour", "amount": "150", "unit": "g" },
+      { "name": "eggs", "amount": "3", "unit": "whole" },
+      { "name": "milk", "amount": "150", "unit": "ml" },
+      { "name": "butter", "amount": "3", "unit": "tbsp" },
+      { "name": "vanilla extract", "amount": "1", "unit": "tsp" },
+      { "name": "powdered sugar", "amount": "2", "unit": "tbsp" },
+      { "name": "mixed berries", "amount": "100", "unit": "g" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Whisk flour, eggs, milk, and vanilla into a smooth batter. Let rest 5 minutes.", "timeMinutes": 6 },
+      { "number": 2, "instruction": "Melt butter in a large pan. Pour in batter, cook until bottom is set.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Tear the pancake apart with two forks. Scramble the pieces around the pan.", "timeMinutes": 2 },
+      { "number": 4, "instruction": "Add more butter. Let the torn pieces caramelize and get crispy edges.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Dust with powdered sugar. Serve with fresh berries.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 6,
+      "cookMinutes": 9,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "all-purpose flour", "replacement": "oat flour", "note": "Whole grain, slightly nuttier flavor" },
+      { "original": "mixed berries", "replacement": "sliced banana", "note": "Cheaper, equally sweet" },
+      { "original": "butter", "replacement": "coconut oil", "note": "Dairy-free, adds subtle coconut flavor" }
+    ],
+    "snap": "Austrian scrambled pancakes made with pantry staples. $1.50 total. Budget King does brunch.",
+    "debate": [
+      { "chefId": "budget-king", "text": "Flour: $0.20. Eggs: $0.90. Milk: $0.30. Butter: $0.40. Total: $1.50. CROWN ME.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Add chocolate chips. And whipped cream. Then we're talking BREAKFAST.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Chocolate chips are $3 a bag. No. Powdered sugar costs pennies and looks gorgeous.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "15 minutes including batter rest. No flipping required. Just tear it apart. I LOVE this.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Rum-soaked raisins and cinnamon sugar. That's the TRADITIONAL Austrian way.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "Three eggs is 18g protein. Add a scoop of protein powder to the batter for 30g. Let's go.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "Three eggs provide 18g protein. Berries add antioxidants. Not the worst breakfast per serving.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "The caramelized edges on the torn pieces are INCREDIBLE. Crispy outside, fluffy inside. BEAUTIFUL.", "timestamp": 23, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "Brunch restaurants charge $14 for this. I'm making it for $1.50. That's called winning.", "timestamp": 26, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "$1.50 brunch. Looks fancy. Tastes incredible. No restaurant markup. Class dismissed.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:18:00Z"
+  },
+  {
+    "id": "r041",
+    "name": "Speed Demon's Sunrise Shakshuka",
+    "tagline": "Eggs poached in spiced tomato sauce. One pan, 18 minutes, zero excuses.",
+    "debateSummary": "Speed Demon streamlined shakshuka into an 18-minute breakfast. Max Flavour insisted on harissa and cumin. The runny eggs in fiery tomato sauce had everyone reaching for bread.",
+    "winningChef": "speed-demon",
+    "ingredients": [
+      { "name": "eggs", "amount": "4", "unit": "whole" },
+      { "name": "canned crushed tomatoes", "amount": "400", "unit": "g" },
+      { "name": "onion", "amount": "1", "unit": "small" },
+      { "name": "garlic", "amount": "3", "unit": "cloves" },
+      { "name": "cumin", "amount": "1", "unit": "tsp" },
+      { "name": "paprika", "amount": "1", "unit": "tsp" },
+      { "name": "feta cheese", "amount": "50", "unit": "g" },
+      { "name": "crusty bread", "amount": "4", "unit": "slices" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Sauté diced onion and garlic in olive oil until softened.", "timeMinutes": 3 },
+      { "number": 2, "instruction": "Add cumin and paprika. Toast spices for 30 seconds until fragrant.", "timeMinutes": 1 },
+      { "number": 3, "instruction": "Pour in crushed tomatoes. Simmer until sauce thickens slightly.", "timeMinutes": 5 },
+      { "number": 4, "instruction": "Create 4 wells in the sauce. Crack an egg into each well.", "timeMinutes": 1 },
+      { "number": 5, "instruction": "Cover and cook until egg whites are set but yolks are still runny.", "timeMinutes": 6 },
+      { "number": 6, "instruction": "Crumble feta on top. Serve straight from the pan with crusty bread.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 4,
+      "cookMinutes": 14,
+      "totalMinutes": 18,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "feta cheese", "replacement": "goat cheese", "note": "Creamier, tangier — melts beautifully into the sauce" },
+      { "original": "canned crushed tomatoes", "replacement": "fire-roasted tomatoes", "note": "Adds smoky depth" },
+      { "original": "crusty bread", "replacement": "pita bread", "note": "More traditional Middle Eastern pairing" }
+    ],
+    "snap": "Spiced tomato sauce, runny eggs, crumbled feta, crusty bread. One pan, 18 minutes. Rise and shine.",
+    "debate": [
+      { "chefId": "speed-demon", "text": "Shakshuka. One pan. 18 minutes. Breakfast AND lunch energy. Let's move.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Add harissa to the sauce. And roasted red peppers. FULL HEAT for breakfast.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Harissa is one squeeze. Approved. Roasted peppers add prep time. DENIED.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Canned tomatoes and eggs. That's $2.50 total. This feeds two people. Beautiful math.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "More feta. Crumble it EVERYWHERE. That salty cheese in the runny egg yolk is INCREDIBLE.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Four eggs: 24g protein, 520mg choline. Tomatoes add lycopene. Solid nutrient density per serving.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "24g protein from eggs alone. Add some chickpeas in the sauce for 35g. Feed the muscle.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "The eggs cook IN the sauce. No separate pan. No extra cleanup. EFFICIENCY.", "timestamp": 23, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "Scoop that runny yolk with the bread. Every bite is saucy, spicy, rich. Non-negotiable.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "speed-demon", "text": "18 minutes. One pan. Serve from the skillet. Clean one thing. DONE. NEXT.", "timestamp": 29, "intensity": "heated" }
+    ],
+    "createdAt": "2026-02-22T10:19:00Z"
+  },
+  {
+    "id": "r042",
+    "name": "Coach Bulk's Protein Pancake Tacos",
+    "tagline": "Coach Bulk turned breakfast fusion into a muscle-building adventure.",
+    "debateSummary": "Coach Bulk saw pancake tacos and immediately saw a protein opportunity. Protein pancake batter, extra eggs, turkey bacon. Maximum Junk was horrified by the protein powder. Then he tasted the maple syrup and stayed.",
+    "winningChef": "coach-bulk",
+    "ingredients": [
+      { "name": "protein pancake mix", "amount": "200", "unit": "g" },
+      { "name": "eggs", "amount": "4", "unit": "whole" },
+      { "name": "turkey bacon", "amount": "6", "unit": "slices" },
+      { "name": "maple syrup", "amount": "3", "unit": "tbsp" },
+      { "name": "cheddar cheese", "amount": "60", "unit": "g" },
+      { "name": "hot sauce", "amount": "2", "unit": "tsp" },
+      { "name": "butter", "amount": "1", "unit": "tbsp" },
+      { "name": "milk", "amount": "120", "unit": "ml" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Mix protein pancake batter with milk until smooth. Make 6 small, thick pancakes.", "timeMinutes": 8 },
+      { "number": 2, "instruction": "Cook turkey bacon until crispy. Crumble into pieces.", "timeMinutes": 4 },
+      { "number": 3, "instruction": "Scramble eggs in butter with salt, pepper, and a dash of hot sauce.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Fold warm pancakes into taco shapes. Fill with scrambled eggs and bacon.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Top with shredded cheese and a drizzle of maple syrup.", "timeMinutes": 1 },
+      { "number": 6, "instruction": "Add extra hot sauce for the brave. Serve immediately while everything is warm.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 16,
+      "totalMinutes": 19,
+      "servings": 2,
+      "difficulty": "adventurous",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "protein pancake mix", "replacement": "regular pancake mix", "note": "Fluffier but 15g less protein per serving" },
+      { "original": "turkey bacon", "replacement": "regular bacon", "note": "More flavor, more fat — Maximum Junk approved" },
+      { "original": "maple syrup", "replacement": "sugar-free syrup", "note": "Cuts 50 calories, keeps the sweet-savory contrast" }
+    ],
+    "snap": "Protein pancakes folded into tacos, loaded with eggs and turkey bacon. Sweet meets savory meets gains.",
+    "debate": [
+      { "chefId": "coach-bulk", "text": "Protein pancakes AS the taco shell. Eggs and turkey bacon inside. 48g protein per serving. Let's GO.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Protein pancakes? Those taste like cardboard mixed with sadness.", "timestamp": 4, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "The new mixes are legit. Add maple syrup drizzle and you won't know the difference.", "timestamp": 7, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "19 minutes. Pancakes, bacon, and eggs all cooking simultaneously. Efficient. Approved.", "timestamp": 10, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Hot sauce on the eggs. Inside the pancake taco. Sweet, savory, spicy. That's three dimensions of FLAVOUR.", "timestamp": 13, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Protein pancake mix is $5 a box. Regular mix is $2. That's $3 for protein powder marketing.", "timestamp": 16, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "Regular pancake mix: 4g protein. Protein mix: 20g. That $3 buys you 48g of gains. Worth it.", "timestamp": 19, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Okay the maple syrup on scrambled eggs inside a pancake is actually... BEAUTIFUL. I hate admitting this.", "timestamp": 22, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Turkey bacon provides 13g protein per serving with 60% less saturated fat than pork bacon. Solid choice.", "timestamp": 25, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "48g protein breakfast. Sweet-savory fusion. Feed the muscle FIRST THING in the morning. Gains start at dawn.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": "2026-02-22T10:20:00Z"
+  }
+]

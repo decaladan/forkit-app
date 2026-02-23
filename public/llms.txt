@@ -1,0 +1,33 @@
+# ForkIt
+
+> ForkIt is a recipe discovery app where 5 AI chef personalities debate and invent unique recipes in 30 seconds. Each recipe is the result of a heated argument between chefs with wildly different food philosophies — from junk food maximalists to calorie optimizers to budget kings.
+
+## How It Works
+
+1. Tap the big red FORK IT button
+2. Watch 5 AI chefs argue about what you should eat
+3. One chef wins the debate
+4. You get a brand-new recipe with ingredients, steps, nutrition, and smart swaps
+
+## The Chefs
+
+- Max Flavour: Bold, spicy, aggressive flavor seeker
+- Max Junk: Unapologetic comfort food maximalist
+- The Optimizer: Data-driven, nutrient-density obsessed
+- Budget King: Penny-pincher who makes magic from pantry scraps
+- Speed Demon: 15-minute meals or bust
+- Coach Bulk: Protein-obsessed fitness coach
+
+## Recipe Collection
+
+ForkIt features 136 unique AI-invented recipes spanning comfort food, healthy meals, budget-friendly dishes, high-protein plates, and quick fixes. Every recipe includes full ingredients, step-by-step instructions, nutrition info (calories, protein, carbs, fat, fiber), smart ingredient swaps, and a debate summary explaining how the chefs argued over it.
+
+## Available Languages
+
+- English
+- Spanish (with Euro currency formatting)
+
+## Links
+
+- [Home](https://forkit-app.vercel.app/): Discover recipes with the ForkIt button
+- [Example Recipe](https://forkit-app.vercel.app/recipe/r001): The Regret-Free Nacho Mountain

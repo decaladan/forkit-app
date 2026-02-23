@@ -1,0 +1,801 @@
+@import "tailwindcss";
+
+/* ============================================
+   ForkIt Design System — Tailwind v4
+   ============================================ */
+
+@theme inline {
+  /* Background */
+  --color-bg: #080808;
+  --color-bg-elevated: #121212;
+  --color-bg-subtle: #1a1a1a;
+  --color-bg-card: #141414;
+
+  /* Text */
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #a0a0a0;
+  --color-text-tertiary: #666666;
+  --color-text-muted: #444444;
+
+  /* ForkIt Red — THE brand color */
+  --color-forkit-red: #e53935;
+  --color-forkit-red-light: #ff5252;
+  --color-forkit-red-dark: #c62828;
+  --color-forkit-red-glow: rgba(229, 57, 53, 0.35);
+
+  /* Chef Colors */
+  --color-chef-max-flavour: #FF6B35;
+  --color-chef-maximum-junk: #FFD600;
+  --color-chef-the-optimizer: #00C853;
+  --color-chef-budget-king: #26A69A;
+  --color-chef-speed-demon: #AB47BC;
+  --color-chef-coach-bulk: #0D47A1;
+
+  /* Semantic */
+  --color-success: #4caf50;
+  --color-warning: #ff9800;
+  --color-error: #f44336;
+  --color-border: #1e1e1e;
+  --color-border-light: #2a2a2a;
+
+  /* Premium Gold */
+  --color-gold: #ffd700;
+  --color-gold-dark: #b8860b;
+
+  /* Fonts */
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), "Fira Code", monospace;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+}
+
+/* ---- Base Styles ---- */
+body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ---- Custom Animations ---- */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow:
+      0 0 20px var(--color-forkit-red-glow),
+      0 0 60px var(--color-forkit-red-glow),
+      0 0 100px rgba(229, 57, 53, 0.15);
+  }
+  50% {
+    box-shadow:
+      0 0 30px var(--color-forkit-red-glow),
+      0 0 80px var(--color-forkit-red-glow),
+      0 0 140px rgba(229, 57, 53, 0.2);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fade-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes countdown-ring {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 283; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+  20%, 40%, 60%, 80% { transform: translateX(2px); }
+}
+
+@keyframes bounce-in {
+  0% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* ---- Utility Classes ---- */
+.animate-pulse-glow {
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out forwards;
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+/* ---- Glass Effect ---- */
+.glass {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ---- Gradient Text ---- */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-forkit-red-light), var(--color-forkit-red));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---- Bold Outlined Text (Planetono-inspired) ---- */
+.text-outline {
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.15);
+  paint-order: stroke fill;
+}
+
+.text-outline-heavy {
+  -webkit-text-stroke: 3px rgba(255, 255, 255, 0.1);
+  paint-order: stroke fill;
+  filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.3));
+}
+
+/* ---- Hero Headline (Planetono-inspired massive type) ---- */
+.hero-headline {
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: 900;
+  line-height: 0.88;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+/* The accent word "fork" — extra heavy treatment */
+.hero-headline-accent {
+  -webkit-text-stroke: 3px rgba(229, 57, 53, 0.4);
+  paint-order: stroke fill;
+  filter: drop-shadow(0 0 40px rgba(229, 57, 53, 0.4))
+         drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  text-shadow: 0 0 60px rgba(229, 57, 53, 0.25);
+}
+
+/* ---- Sparkle Star SVG ---- */
+.sparkle {
+  position: absolute;
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* ---- Thick Border Aesthetic ---- */
+.border-thick {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ---- Film Grain ---- */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
+/* ---- Safe Areas ---- */
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-light);
+  border-radius: 4px;
+}
+
+/* ---- Selection ---- */
+::selection {
+  background: rgba(229, 57, 53, 0.3);
+  color: white;
+}
+
+/* ============================================
+   ForkIt Home — Comic Book Style
+   ============================================ */
+
+/* Full-screen home container */
+.home-screen {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffc737;
+}
+
+/* Comic sunburst background */
+.sunburst {
+  position: absolute;
+  inset: -50%;
+  z-index: 0;
+  background:
+    repeating-conic-gradient(
+      from 0deg,
+      rgba(255, 200, 0, 0.4) 0deg 10deg,
+      transparent 10deg 20deg
+    );
+  animation: spin-slow 60s linear infinite;
+}
+
+/* "FORK IT" title — smaller */
+.forkit-title {
+  position: relative;
+  z-index: 10;
+  margin-top: 8svh;
+  margin-bottom: 0;
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: white;
+  -webkit-text-stroke: 4px #000;
+  paint-order: stroke fill;
+  text-shadow:
+    3px 3px 0 #000,
+    4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Subtitle */
+.forkit-subtitle {
+  position: relative;
+  z-index: 10;
+  margin-top: 0.3svh;
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(0.7rem, 2.5vw, 1rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* ---- Chef Row ---- */
+.chefs-row {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 0 2vw;
+  margin: 2svh 0 0;
+  gap: 4px;
+}
+
+.chef-slot {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.chef-img {
+  width: 100%;
+  max-height: 28svh;
+  object-fit: contain;
+  filter: drop-shadow(2px 3px 0 rgba(0, 0, 0, 0.15));
+}
+
+/* ---- 3D Arcade Button ---- */
+.arcade-btn {
+  position: relative;
+  z-index: 10;
+  margin: 3svh 0 1svh;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  transition: filter 250ms;
+}
+.arcade-btn:hover {
+  filter: brightness(110%);
+}
+
+.arcade-btn-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(4px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+.arcade-btn:hover .arcade-btn-shadow {
+  transform: translateY(6px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.arcade-btn:active .arcade-btn-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.arcade-btn-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: linear-gradient(
+    to left,
+    hsl(350deg 100% 20%) 0%,
+    hsl(350deg 100% 36%) 8%,
+    hsl(350deg 100% 36%) 92%,
+    hsl(350deg 100% 20%) 100%
+  );
+}
+
+.arcade-btn-front {
+  display: block;
+  position: relative;
+  padding: 12px 40px;
+  border-radius: 50px;
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: white;
+  background: hsl(350deg 100% 47%);
+  border: 3px solid #000;
+  will-change: transform;
+  transform: translateY(-6px);
+  transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.arcade-btn:hover .arcade-btn-front {
+  transform: translateY(-8px);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+.arcade-btn:active .arcade-btn-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+/* ---- Dish Carousel (infinite loop) ---- */
+.carousel-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 1svh;
+  padding-bottom: 2svh;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 12px;
+  animation: carousel-scroll 25s linear infinite;
+  width: max-content;
+  padding: 4px 0;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes carousel-scroll {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.dish-card {
+  flex-shrink: 0;
+  width: 150px;
+  background: #fff;
+  border-radius: 14px;
+  border: 3px solid #000;
+  overflow: visible;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.dish-card:active {
+  transform: translateZ(0) scale(0.97);
+}
+
+/* Top image area — comic sunburst */
+.dish-card-image {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dish-card-rays {
+  position: absolute;
+  inset: -50%;
+  background:
+    repeating-conic-gradient(
+      from 0deg,
+      rgba(255, 255, 255, 0.12) 0deg 8deg,
+      transparent 8deg 16deg
+    );
+  animation: spin-slow 40s linear infinite;
+}
+
+.dish-card-emoji {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  filter: drop-shadow(2px 3px 0 rgba(0, 0, 0, 0.3));
+}
+
+/* Info section */
+.dish-card-info {
+  position: relative;
+  padding: 10px 10px 12px;
+  border-top: 3px solid #000;
+}
+
+.dish-card-name {
+  font-family: var(--font-display), sans-serif;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 4px;
+  line-height: 1.15;
+}
+
+.dish-card-desc {
+  font-size: 0.6rem;
+  color: #555;
+  line-height: 1.35;
+}
+
+/* Chef avatar — bottom right corner of card, overlapping edge */
+.dish-card-avatar {
+  position: absolute;
+  bottom: -12px;
+  right: -6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid;
+  overflow: hidden;
+  background: #ffc737;
+  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.dish-card-avatar-img {
+  width: 130%;
+  height: 130%;
+  margin: -15% 0 0 -15%;
+  object-fit: cover;
+  object-position: center 15%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Bottom tagline */
+.home-tagline {
+  position: relative;
+  z-index: 10;
+  margin: 0 0 1svh;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 260px;
+}
+
+/* ============================================
+   Debate Screen — Comic Book Style
+   ============================================ */
+
+/* Full-screen debate container */
+.debate-screen {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffc737;
+}
+
+/* Header: timer + status */
+.debate-header {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4svh;
+  padding-bottom: 1svh;
+  gap: 6px;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.debate-status-text {
+  font-family: var(--font-display), sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Timer — comic circle */
+.debate-timer {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 0 #000;
+}
+
+/* Chef avatars row (circle mode — kept for reference) */
+.debate-chefs-row {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  padding: 1svh 16px 1.5svh;
+}
+
+@media (min-width: 640px) {
+  .debate-chefs-row { gap: 20px; }
+}
+
+/* Full-body chef stage */
+.debate-chefs-stage {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 12px 0.5svh;
+}
+
+@media (min-width: 640px) {
+  .debate-chefs-stage { gap: 14px; }
+}
+
+/* Chef avatar circle (debate version) */
+.debate-chef-circle {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #000;
+  background: #ffc737;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Speech bubble — comic card */
+.debate-speech-bubble {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 3px 3px 0 #000;
+}
+
+/* Mini avatar inside speech bubble */
+.debate-bubble-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #000;
+  background: #ffc737;
+  flex-shrink: 0;
+}
+
+/* Intensity badge */
+.debate-intensity-badge {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+/* Messages area */
+.debate-messages {
+  position: relative;
+  z-index: 10;
+  flex: 1;
+  width: 100%;
+  max-width: 28rem;
+  padding: 0 20px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  overflow: hidden;
+}
+
+/* Winner banner */
+.debate-winner-banner {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 14px;
+  padding: 12px 28px;
+  box-shadow: 4px 4px 0 #000;
+  margin: 4px 0;
+}
+
+.debate-winner-label {
+  font-family: var(--font-display), sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* Recipe bar at bottom */
+.debate-recipe-bar {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  padding: 12px 24px 3svh;
+  text-align: center;
+}
+
+/* ============================================
+   Comic Book — Shared Utility Classes
+   ============================================ */
+
+/* Reusable comic card */
+.comic-card {
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 14px;
+  box-shadow: 3px 3px 0 #000;
+}
+
+/* Yellow background page (for scrollable pages like history, settings) */
+.comic-page {
+  min-height: 100svh;
+  background: #ffc737;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Red arcade button — reusable */
+.comic-btn-red {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-weight: 800;
+  color: white;
+  background: hsl(350deg 100% 47%);
+  border: 3px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.comic-btn-red:hover {
+  transform: translateY(-2px);
+  box-shadow: 3px 5px 0 #000;
+}
+.comic-btn-red:active {
+  transform: translateY(1px);
+  box-shadow: 2px 1px 0 #000;
+}
+
+/* Small badge pill */
+.comic-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  font-size: 11px;
+  font-weight: 700;
+}

@@ -1,0 +1,1065 @@
+[
+  {
+    "id": "r043",
+    "name": "The Crispy Bottom Noodle Incident",
+    "tagline": "Speed Demon pan-fried noodles so fast the wok barely knew what hit it.",
+    "debateSummary": "Speed Demon claimed 15 minutes for restaurant-quality noodles. Max Flavour demanded chili oil. Budget King pointed out the whole thing costs less than a drive-through combo.",
+    "winningChef": "speed-demon",
+    "ingredients": [
+      { "name": "egg noodles", "amount": "250", "unit": "g" },
+      { "name": "soy sauce", "amount": "3", "unit": "tbsp" },
+      { "name": "oyster sauce", "amount": "1", "unit": "tbsp" },
+      { "name": "sesame oil", "amount": "1", "unit": "tsp" },
+      { "name": "garlic", "amount": "3", "unit": "cloves" },
+      { "name": "green onions", "amount": "4", "unit": "stalks" },
+      { "name": "bean sprouts", "amount": "1", "unit": "cup" },
+      { "name": "vegetable oil", "amount": "2", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Boil egg noodles for 1 minute less than package says. Drain and toss with sesame oil.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Heat vegetable oil in a large pan until smoking. Spread noodles flat. Do NOT touch them.", "timeMinutes": 4 },
+      { "number": 3, "instruction": "Once the bottom is golden and crispy, flip the noodle cake. Crisp the other side.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Push noodles aside. Fry garlic for 30 seconds, add soy sauce and oyster sauce.", "timeMinutes": 1 },
+      { "number": 5, "instruction": "Toss everything together with bean sprouts and green onions. Serve immediately.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 12,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "egg noodles", "replacement": "ramen noodles", "note": "Different texture, equally crispy" },
+      { "original": "oyster sauce", "replacement": "hoisin sauce", "note": "Sweeter, still packed with umami" },
+      { "original": "bean sprouts", "replacement": "shredded cabbage", "note": "Holds up better if you have leftovers" }
+    ],
+    "snap": "15 minutes. Crispy bottom, chewy top. Speed Demon turned cheap noodles into a two-texture masterpiece.",
+    "debate": [
+      { "chefId": "speed-demon", "text": "15 minutes. Boil, fry, eat. No one needs more time than that.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "You need chili oil. Without heat, this is just... plain noodles.", "timestamp": 4, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Chili oil is a drizzle at the end. Takes 3 seconds. Fine. KEEP MOVING.", "timestamp": 7, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "Egg noodles: $1.20. Soy sauce: pantry staple. Total cost: $2.80. That's poetry.", "timestamp": 10, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Where's the protein? Add an egg or some chicken and you've got a real meal.", "timestamp": 13, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "Bean sprouts add 3g fiber per serving. The sesame oil provides healthy fats. Acceptable.", "timestamp": 16, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Three cloves garlic. MINIMUM. And toast it until it's golden, not burnt.", "timestamp": 19, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "The crispy bottom is the whole point. Don't touch the noodles for 4 minutes. DISCIPLINE.", "timestamp": 22, "intensity": "explosive" },
+      { "chefId": "maximum-junk", "text": "Add a fried egg on top. The yolk runs into the crispy noodles. BEAUTIFUL.", "timestamp": 25, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "12 minutes active cooking. DONE. Ship it. NEXT.", "timestamp": 28, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r044",
+    "name": "Wok Hei Beef Tornado",
+    "tagline": "Max Flavour cranked the heat so high the smoke alarm filed a complaint.",
+    "debateSummary": "Max Flavour insisted on wok hei or nothing. Speed Demon pushed for pre-soaked noodles. Budget King swapped sirloin for flank steak. The result: smoky, charred, restaurant-quality beef chow fun at home.",
+    "winningChef": "max-flavour",
+    "ingredients": [
+      { "name": "flat rice noodles", "amount": "300", "unit": "g" },
+      { "name": "beef flank steak", "amount": "250", "unit": "g" },
+      { "name": "bean sprouts", "amount": "1", "unit": "cup" },
+      { "name": "green onions", "amount": "4", "unit": "stalks" },
+      { "name": "soy sauce", "amount": "3", "unit": "tbsp" },
+      { "name": "oyster sauce", "amount": "2", "unit": "tbsp" },
+      { "name": "garlic", "amount": "3", "unit": "cloves" },
+      { "name": "vegetable oil", "amount": "3", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Soak rice noodles in warm water for 20 minutes until pliable. Drain well.", "timeMinutes": 2 },
+      { "number": 2, "instruction": "Slice beef paper-thin against the grain. Season with soy sauce and a splash of oil.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Screaming hot wok. Sear beef in batches until charred edges form. Set aside.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Same wok, more oil. Add noodles and press flat. Let them char. Toss with oyster sauce.", "timeMinutes": 4 },
+      { "number": 5, "instruction": "Add garlic, sprouts, green onions, and beef back in. Toss 30 seconds.", "timeMinutes": 1 },
+      { "number": 6, "instruction": "Plate immediately. The wok hei fades fast — eat while it's smoky.", "timeMinutes": 0 }
+    ],
+    "stats": {
+      "prepMinutes": 8,
+      "cookMinutes": 12,
+      "totalMinutes": 20,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "beef flank steak", "replacement": "chicken thigh, sliced thin", "note": "Cheaper, still chars beautifully" },
+      { "original": "flat rice noodles", "replacement": "wide lo mein noodles", "note": "Different texture, still delicious" },
+      { "original": "oyster sauce", "replacement": "mushroom sauce", "note": "Vegetarian-friendly umami bomb" }
+    ],
+    "snap": "Charred beef, smoky noodles, and the ghost of a thousand woks. Max Flavour brought the restaurant home.",
+    "debate": [
+      { "chefId": "max-flavour", "text": "Wok hei. Breath of the wok. That's where flavour LIVES. No heat, no point.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "speed-demon", "text": "Pre-soak the noodles. They cook in 2 minutes flat. No boiling.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Sirloin? That's $14/lb. Flank steak is $8. Slice it thin, same result.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "AGAINST the grain. If you slice with the grain, you've ruined everything.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Beef provides 26g protein per 100g. The bean sprouts add vitamin C. Solid nutrient profile.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "250g beef is 40g protein for the whole pan. Split two ways that's 20g each. Add an egg if you need more gains.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "The noodles need to CHAR. Press them flat. Don't move them. Let the Maillard reaction do its work.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Extra oyster sauce. Don't be stingy. That glossy coat is EVERYTHING.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "20 minutes including prep. For restaurant-quality chow fun? That's a W.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Eat it IMMEDIATELY. Wok hei doesn't wait. This is non-negotiable.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r045",
+    "name": "The Eight-Garlic Butter Bomb Noodles",
+    "tagline": "Max Flavour used so much garlic the neighbors could taste it.",
+    "debateSummary": "Max Flavour demanded a minimum of eight garlic cloves. The Optimizer begged for moderation. Budget King noted the entire dish costs less than a latte. The fish sauce and parmesan combo turned skeptics into believers.",
+    "winningChef": "max-flavour",
+    "ingredients": [
+      { "name": "egg noodles", "amount": "250", "unit": "g" },
+      { "name": "butter", "amount": "3", "unit": "tbsp" },
+      { "name": "garlic", "amount": "8", "unit": "cloves" },
+      { "name": "oyster sauce", "amount": "2", "unit": "tbsp" },
+      { "name": "fish sauce", "amount": "1", "unit": "tbsp" },
+      { "name": "parmesan", "amount": "40", "unit": "g" },
+      { "name": "green onions", "amount": "3", "unit": "stalks" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cook egg noodles until al dente. Reserve half a cup of pasta water. Drain.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Melt butter in a large pan. Add ALL eight cloves of minced garlic. Cook until golden.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Add oyster sauce and fish sauce to the garlic butter. Stir for 30 seconds.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Toss in noodles with a splash of pasta water. Coat everything in the sauce.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Kill heat. Shower with parmesan and green onions. Toss one more time.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 12,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "butter", "replacement": "olive oil", "note": "Lighter, but you lose that nutty brown butter flavor" },
+      { "original": "fish sauce", "replacement": "soy sauce", "note": "Less funky, still salty and savory" },
+      { "original": "parmesan", "replacement": "nutritional yeast", "note": "Vegan-friendly cheesy flavor" }
+    ],
+    "snap": "Eight cloves of garlic, brown butter, fish sauce, parmesan. Max Flavour created an umami weapon of mass destruction.",
+    "debate": [
+      { "chefId": "max-flavour", "text": "Eight cloves of garlic. MINIMUM. This is non-negotiable.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Eight cloves is excessive. Three provides the same allicin benefits without the social consequences.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Social consequences? This is DINNER, not a first date. FULL HEAT.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Egg noodles, butter, garlic. That's $3 total. For two servings. I'm actually emotional.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Fish sauce AND parmesan? That's double umami. BEAUTIFUL. Trust the process.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "15 minutes. I timed it. Boil, fry garlic, toss. DONE.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "Only 12g protein per serving. Add some grilled shrimp and you've got a real meal. Let's go.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Brown the butter. Don't just melt it. The nutty notes are where flavour LIVES.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "I'll concede — garlic does contain 1.8mg manganese per ounce. Proceed.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Parmesan on top like SNOW. Every strand of noodle coated. That's the rule.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r046",
+    "name": "The Two-Minute Prawn Panic",
+    "tagline": "Speed Demon proved prawns cook faster than your excuses.",
+    "debateSummary": "Speed Demon used frozen rice and had this done in 15 minutes flat. Max Flavour insisted on sambal. Coach Bulk approved the protein count. Budget King wept over the prawn price until someone mentioned frozen shrimp.",
+    "winningChef": "speed-demon",
+    "ingredients": [
+      { "name": "frozen pre-cooked rice", "amount": "2", "unit": "cups" },
+      { "name": "prawns", "amount": "250", "unit": "g" },
+      { "name": "eggs", "amount": "2", "unit": "whole" },
+      { "name": "soy sauce", "amount": "2", "unit": "tbsp" },
+      { "name": "sesame oil", "amount": "1", "unit": "tsp" },
+      { "name": "frozen peas and carrots", "amount": "1", "unit": "cup" },
+      { "name": "garlic", "amount": "2", "unit": "cloves" },
+      { "name": "sambal oelek", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Heat wok screaming hot. Scramble eggs in 30 seconds. Set aside immediately.", "timeMinutes": 1 },
+      { "number": 2, "instruction": "Same wok. Sear prawns with garlic for 2 minutes until pink. Don't overcook.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Add frozen rice directly to the wok. Break up clumps. Press flat and let it crisp.", "timeMinutes": 4 },
+      { "number": 4, "instruction": "Toss in peas, carrots, soy sauce, and sambal. Stir-fry until everything is hot.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Add eggs back. Drizzle sesame oil. Toss once. Plate.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 4,
+      "cookMinutes": 11,
+      "totalMinutes": 15,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "prawns", "replacement": "frozen shrimp", "note": "Half the price, equally delicious defrosted" },
+      { "original": "frozen pre-cooked rice", "replacement": "day-old leftover rice", "note": "Even better texture, zero extra cost" },
+      { "original": "sambal oelek", "replacement": "sriracha", "note": "More available, slightly sweeter heat" }
+    ],
+    "snap": "Frozen rice, frozen prawns, 15 minutes. Speed Demon just made your takeout app irrelevant.",
+    "debate": [
+      { "chefId": "speed-demon", "text": "Frozen rice. Skip the cooking. Skip the cooling. We're at 15 minutes TOTAL.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Sambal. You need sambal. Plain soy sauce fried rice is a missed opportunity.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Fresh prawns?! That's $12 a pound. Use frozen. $4.99 for the same thing.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Frozen prawns thaw in the hot wok in 90 seconds. Even faster. KEEP MOVING.", "timestamp": 11, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Prawns deliver 24g protein per 100g with minimal fat. Excellent protein-to-calorie ratio.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "250g prawns plus 2 eggs? That's 38g protein for the pan. Feed the muscle, let's go.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Extra egg. Scramble three. More egg in fried rice is always the answer.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "High heat. The rice needs to CRACK against the wok. Crispy bits are everything.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "11 minutes cooking. 4 minutes prep. That's 15. I'm done. Ship it.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "With frozen shrimp and frozen rice: $5.50 total. Two generous servings. Acceptable.", "timestamp": 29, "intensity": "calm" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r047",
+    "name": "The Nutrient-Dense Peanut Protocol",
+    "tagline": "The Optimizer weaponized a Buddha bowl with science and Thai peanut sauce.",
+    "debateSummary": "The Optimizer built a bowl hitting every macro target. Speed Demon complained about roasting time. Max Flavour demanded chili oil. The Thai peanut sauce brought everyone together in grudging harmony.",
+    "winningChef": "the-optimizer",
+    "ingredients": [
+      { "name": "sweet potato", "amount": "1", "unit": "large" },
+      { "name": "chickpeas", "amount": "1", "unit": "can" },
+      { "name": "quinoa", "amount": "1", "unit": "cup" },
+      { "name": "peanut butter", "amount": "2", "unit": "tbsp" },
+      { "name": "soy sauce", "amount": "1", "unit": "tbsp" },
+      { "name": "lime", "amount": "1", "unit": "whole" },
+      { "name": "sriracha", "amount": "1", "unit": "tsp" },
+      { "name": "shredded cabbage", "amount": "1", "unit": "cup" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cube sweet potato. Toss with oil and roast at 220C alongside drained chickpeas.", "timeMinutes": 25 },
+      { "number": 2, "instruction": "Cook quinoa according to package directions. Fluff with a fork.", "timeMinutes": 15 },
+      { "number": 3, "instruction": "Whisk peanut butter, soy sauce, lime juice, sriracha, and warm water into a smooth sauce.", "timeMinutes": 2 },
+      { "number": 4, "instruction": "Build bowls: quinoa base, roasted sweet potato, crispy chickpeas, raw cabbage.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Drizzle peanut sauce over everything. Squeeze extra lime on top.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "totalMinutes": 35,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "quinoa", "replacement": "brown rice", "note": "Cheaper, slightly less protein but still solid" },
+      { "original": "peanut butter", "replacement": "almond butter", "note": "More vitamin E, different flavor profile" },
+      { "original": "chickpeas", "replacement": "white beans", "note": "Creamier texture when roasted" }
+    ],
+    "snap": "18g protein, 12g fiber, 340% daily vitamin A per serving. The Optimizer built a bowl that's basically a multivitamin.",
+    "debate": [
+      { "chefId": "the-optimizer", "text": "Sweet potato: 340% daily vitamin A. Quinoa: complete protein. Chickpeas: 12g fiber. This bowl is optimal.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "A bowl of vegetables and grains. You're really selling the dream here.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "The peanut sauce saves it. Add chili oil on top and we're in business.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "35 minutes?! For a SALAD? I'm out.", "timestamp": 11, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Roasting caramelizes natural sugars. This increases palatability by approximately 40%.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Canned chickpeas, one sweet potato, bulk quinoa. $3.50 per serving. Reasonable.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Add grilled tofu and that's 30g protein. Now we're talking gains.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "The peanut sauce provides 7g protein from peanut butter alone. Every component is working.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Fine. I'll admit the roasted chickpeas with that sauce are FULL HEAT worthy.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "Per serving: 480 calories, 18g protein, 12g fiber, 22 micronutrients. The data speaks for itself.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r048",
+    "name": "The Macronutrient Poke Equation",
+    "tagline": "The Optimizer calculated the perfect protein-to-fat ratio and it tastes like the ocean.",
+    "debateSummary": "The Optimizer built a poke bowl with measured macros. Max Flavour added sriracha mayo. Budget King nearly fainted at the sushi-grade salmon price. Coach Bulk doubled the fish and called it post-workout perfection.",
+    "winningChef": "the-optimizer",
+    "ingredients": [
+      { "name": "sushi-grade salmon", "amount": "300", "unit": "g" },
+      { "name": "sushi rice", "amount": "1", "unit": "cup" },
+      { "name": "avocado", "amount": "1", "unit": "whole" },
+      { "name": "cucumber", "amount": "1", "unit": "whole" },
+      { "name": "edamame", "amount": "0.5", "unit": "cup" },
+      { "name": "soy sauce", "amount": "2", "unit": "tbsp" },
+      { "name": "sesame oil", "amount": "1", "unit": "tsp" },
+      { "name": "nori sheets", "amount": "2", "unit": "sheets" },
+      { "name": "sesame seeds", "amount": "1", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cook sushi rice with a splash of rice vinegar. Cool to room temperature.", "timeMinutes": 15 },
+      { "number": 2, "instruction": "Cube salmon into 2cm pieces. Toss with soy sauce and sesame oil. Refrigerate 10 min.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Slice cucumber and avocado. Tear nori into strips.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Build bowls: rice base, marinated salmon, avocado, cucumber, edamame.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Top with nori strips and sesame seeds. Eat cold.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "totalMinutes": 25,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$$"
+    },
+    "smartSwaps": [
+      { "original": "sushi-grade salmon", "replacement": "canned salmon or cooked shrimp", "note": "Drops cost by $10, still delicious" },
+      { "original": "avocado", "replacement": "mango slices", "note": "Tropical twist, equally creamy-sweet" },
+      { "original": "sushi rice", "replacement": "cauliflower rice", "note": "Low-carb swap, 80% fewer carbs per serving" }
+    ],
+    "snap": "Omega-3 fatty acids, complete amino acids, monounsaturated fats. Science never tasted this good.",
+    "debate": [
+      { "chefId": "the-optimizer", "text": "Salmon: 2.3g omega-3 per serving. Avocado: monounsaturated fats. Edamame: complete plant protein. Optimal.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Sushi-grade salmon is $18 a pound. I'm having chest pains.", "timestamp": 5, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "Sriracha mayo on top. Pickled ginger on the side. Give it LIFE.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "300g salmon is 45g protein. This is a muscle-building masterpiece. Let's go.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "No cooking the salmon. Raw fish, done. I respect the efficiency.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "Raw preparation preserves heat-sensitive omega-3s. Cooking degrades them by up to 30%.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Okay but can we deep-fry the rice? Crispy rice poke bowls are a THING.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Deep-frying adds 120 empty calories per serving. I'll pass.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Use canned salmon and this drops to $4 per serving. Just saying.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "Per bowl: 520 calories, 35g protein, 18g healthy fats, 4.6g omega-3. Textbook nutrition.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r049",
+    "name": "The Lemongrass Banh Mi Breakdown",
+    "tagline": "Max Flavour deconstructed a sandwich and built a flavor bomb in a bowl.",
+    "debateSummary": "Max Flavour wanted lemongrass-marinated pork instead of tofu. Speed Demon said buy pre-pickled veggies. Coach Bulk demanded extra protein. The result is every banh mi flavor exploding in bowl form.",
+    "winningChef": "max-flavour",
+    "ingredients": [
+      { "name": "pork loin", "amount": "300", "unit": "g" },
+      { "name": "rice noodles", "amount": "200", "unit": "g" },
+      { "name": "carrots", "amount": "2", "unit": "whole" },
+      { "name": "daikon", "amount": "100", "unit": "g" },
+      { "name": "cucumber", "amount": "1", "unit": "whole" },
+      { "name": "jalapeño", "amount": "1", "unit": "whole" },
+      { "name": "cilantro", "amount": "1", "unit": "bunch" },
+      { "name": "sriracha mayo", "amount": "3", "unit": "tbsp" },
+      { "name": "lemongrass paste", "amount": "1", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Marinate sliced pork in lemongrass paste, fish sauce, and sugar for 10 minutes.", "timeMinutes": 2 },
+      { "number": 2, "instruction": "Quick-pickle shredded carrots and daikon in rice vinegar, sugar, and salt.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Cook rice noodles. Drain and rinse with cold water.", "timeMinutes": 5 },
+      { "number": 4, "instruction": "Sear marinated pork on high heat until caramelized and charred.", "timeMinutes": 5 },
+      { "number": 5, "instruction": "Assemble bowls: noodles, pork, pickled veg, cucumber, jalapeño, cilantro.", "timeMinutes": 2 },
+      { "number": 6, "instruction": "Drizzle sriracha mayo generously. Squeeze lime over everything.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 12,
+      "cookMinutes": 18,
+      "totalMinutes": 30,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "pork loin", "replacement": "crispy tofu", "note": "Lighter, vegan-friendly, still takes the marinade well" },
+      { "original": "sriracha mayo", "replacement": "hoisin sauce", "note": "Sweeter, less spicy, classic banh mi flavor" },
+      { "original": "rice noodles", "replacement": "jasmine rice", "note": "Heartier base, different but equally good" }
+    ],
+    "snap": "Lemongrass pork, tangy pickles, spicy mayo. Every bite is a different flavor explosion. Max Flavour went full Vietnam.",
+    "debate": [
+      { "chefId": "max-flavour", "text": "Lemongrass-marinated pork. Not tofu. PORK. Caramelized until it's charred. Non-negotiable.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "speed-demon", "text": "Buy pre-pickled veggies from the jar. Save 30 minutes of pickling nonsense.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Quick pickle takes 3 minutes. The vinegar tang is where flavour LIVES in a banh mi.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Pork loin is lean: 22g protein per 100g with only 3g fat. Acceptable macros.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Pork loin is $4 a pound. Rice noodles are $1. This is a $4 per serving bowl. I'm happy.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "300g pork is 66g protein for the pan. That's 33g per serving. Feed the muscle.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Sriracha mayo. EXTRA. Don't be shy with it. That's where the comfort is.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Fresh cilantro, sliced jalapeño, that hit of lime acid. EVERY element matters.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "30 minutes is pushing it. But the flavors are moving fast so I'll allow it.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Char that pork until the lemongrass caramelizes. FULL HEAT. That's the whole point.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r050",
+    "name": "The $3 Chipotle Takedown Bowl",
+    "tagline": "Budget King made a better Chipotle bowl for a quarter of the price.",
+    "debateSummary": "Budget King reverse-engineered Chipotle for $3 per serving. Max Flavour added chipotle crema. Coach Bulk doubled the chicken. Everyone agreed homemade destroys the $12 restaurant version.",
+    "winningChef": "budget-king",
+    "ingredients": [
+      { "name": "rice", "amount": "1", "unit": "cup" },
+      { "name": "chicken thighs", "amount": "300", "unit": "g" },
+      { "name": "black beans", "amount": "1", "unit": "can" },
+      { "name": "corn", "amount": "1", "unit": "cup" },
+      { "name": "salsa", "amount": "0.5", "unit": "cup" },
+      { "name": "cheddar cheese", "amount": "60", "unit": "g" },
+      { "name": "lime", "amount": "2", "unit": "whole" },
+      { "name": "cilantro", "amount": "1", "unit": "bunch" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cook rice with lime juice and chopped cilantro stirred in at the end.", "timeMinutes": 15 },
+      { "number": 2, "instruction": "Season chicken with cumin, paprika, garlic powder, and salt. Grill or pan-sear.", "timeMinutes": 8 },
+      { "number": 3, "instruction": "Warm black beans in a small pot with a pinch of cumin.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Slice chicken. Build bowls: cilantro-lime rice, beans, corn, chicken.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Top with salsa, cheese, and extra lime. Double the portions Chipotle gives you.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "totalMinutes": 25,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "chicken thighs", "replacement": "ground turkey", "note": "Even cheaper, crumbles into the bowl nicely" },
+      { "original": "cheddar cheese", "replacement": "cotija cheese", "note": "More authentic, crumbles beautifully" },
+      { "original": "salsa", "replacement": "pico de gallo", "note": "Fresher taste, dice tomato-onion-cilantro yourself" }
+    ],
+    "snap": "$3 vs $12. Double the portions. Budget King just put Chipotle on notice.",
+    "debate": [
+      { "chefId": "budget-king", "text": "Chipotle charges $12 for this. I'm making it for $3 per serving. CROWN ME.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "You need chipotle crema. Adobo sauce blended with sour cream. FULL HEAT.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "300g chicken thighs is 45g protein total. Add extra beans and you're at 30g per serving. Gains.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "25 minutes for a complete meal. The rice is the bottleneck. Otherwise I'd have it in 10.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Chicken thighs, not breast. $1.99 a pound vs $5.99. Same flavor. Better flavor, actually.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Extra cheese. Sour cream. Guacamole. Load it UP.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Guac is extra at Chipotle. At home it's one avocado. $1.50. I win again.", "timestamp": 20, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Black beans provide 15g fiber per cup. The rice and beans form a complete protein. Efficient.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Cilantro-lime rice is the backbone. Fresh lime juice, not bottled. Non-negotiable.", "timestamp": 26, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "$3 per serving. Two servings. $6 total vs $24 for two at Chipotle. Math is beautiful.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r051",
+    "name": "The Honey-Drowned Feta Situation",
+    "tagline": "Maximum Junk baked a block of cheese and drowned it in honey. Nobody complained.",
+    "debateSummary": "Maximum Junk demanded extra honey. Max Flavour added chili flakes. Speed Demon discovered the air fryer shortcut. What started as a cheese block ended as the most addictive appetizer on the table.",
+    "winningChef": "maximum-junk",
+    "ingredients": [
+      { "name": "feta block", "amount": "200", "unit": "g" },
+      { "name": "honey", "amount": "3", "unit": "tbsp" },
+      { "name": "olive oil", "amount": "2", "unit": "tbsp" },
+      { "name": "chili flakes", "amount": "1", "unit": "tsp" },
+      { "name": "fresh thyme", "amount": "4", "unit": "sprigs" },
+      { "name": "crusty bread", "amount": "1", "unit": "baguette" },
+      { "name": "garlic", "amount": "2", "unit": "cloves" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Place feta block in a small baking dish. Drizzle with olive oil and scatter thyme.", "timeMinutes": 1 },
+      { "number": 2, "instruction": "Tuck garlic cloves around the feta. Bake at 200C for 10 minutes until soft.", "timeMinutes": 10 },
+      { "number": 3, "instruction": "Remove from oven. Drizzle GENEROUSLY with honey. Sprinkle chili flakes.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Slice crusty bread. Smear warm, gooey feta onto every piece. Repeat.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 2,
+      "cookMinutes": 12,
+      "totalMinutes": 14,
+      "servings": 4,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "feta block", "replacement": "halloumi", "note": "Firmer, grills beautifully too" },
+      { "original": "honey", "replacement": "hot honey", "note": "Pre-spiced, even more addictive" },
+      { "original": "crusty bread", "replacement": "pita chips", "note": "Crunchier vessel, easier to scoop" }
+    ],
+    "snap": "Warm gooey feta, rivers of honey, chili heat. Maximum Junk turned a cheese block into a religious experience.",
+    "debate": [
+      { "chefId": "maximum-junk", "text": "A WHOLE block of feta. Baked until gooey. Drowned in honey. BEAUTIFUL.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Feta has 21g protein per 100g and is lower in fat than most cheeses. Surprisingly acceptable.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Chili flakes on top. The sweet-salty-spicy triangle. That's where flavour LIVES.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Air fryer version. 8 minutes. Even faster. DONE.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Feta block: $4. Honey: pantry staple. Bread: $2. Feeds four. That's $1.50 per person.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "More honey. Don't be shy. The cheese ABSORBS it. Trust the process.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Roast the garlic cloves alongside. Squeeze them onto the bread. Non-negotiable.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "It's an appetizer, not a meal. But pair it with grilled chicken and you've got something. Let's go.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "The way the honey pools around the warm feta... I'm going to cry. This is comfort food royalty.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "speed-demon", "text": "14 minutes total for an appetizer that looks like you spent an hour. Efficient flex.", "timestamp": 29, "intensity": "calm" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r052",
+    "name": "The 50-Calorie Crunch Trap",
+    "tagline": "The Optimizer proved you can be addicted to something that's basically free calories.",
+    "debateSummary": "The Optimizer built a snack at 50 calories per serving. Max Flavour doubled the chili oil. Budget King calculated it costs less than a dollar. The smashing technique was the key insight nobody saw coming.",
+    "winningChef": "the-optimizer",
+    "ingredients": [
+      { "name": "cucumbers", "amount": "3", "unit": "whole" },
+      { "name": "garlic", "amount": "4", "unit": "cloves" },
+      { "name": "rice vinegar", "amount": "2", "unit": "tbsp" },
+      { "name": "soy sauce", "amount": "2", "unit": "tbsp" },
+      { "name": "sesame oil", "amount": "1", "unit": "tbsp" },
+      { "name": "chili oil", "amount": "1", "unit": "tbsp" },
+      { "name": "sugar", "amount": "1", "unit": "tsp" },
+      { "name": "sesame seeds", "amount": "1", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Smash cucumbers with the flat side of a knife until they crack open. Tear into rough pieces.", "timeMinutes": 2 },
+      { "number": 2, "instruction": "Mince garlic finely. Toss with cucumber pieces.", "timeMinutes": 1 },
+      { "number": 3, "instruction": "Whisk rice vinegar, soy sauce, sesame oil, chili oil, and sugar together.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Pour dressing over cucumbers. Toss to coat every craggy surface.", "timeMinutes": 1 },
+      { "number": 5, "instruction": "Let sit for 10 minutes. Top with sesame seeds. Devour.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "totalMinutes": 5,
+      "servings": 4,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "chili oil", "replacement": "sriracha", "note": "More available, slightly different heat profile" },
+      { "original": "rice vinegar", "replacement": "apple cider vinegar", "note": "Different tang, works in a pinch" },
+      { "original": "sesame seeds", "replacement": "crushed peanuts", "note": "Adds crunch and protein" }
+    ],
+    "snap": "50 calories per serving. Zero cooking. Maximum crunch. The Optimizer found the cheat code to guilt-free snacking.",
+    "debate": [
+      { "chefId": "the-optimizer", "text": "50 calories per serving. 95% water content. High in vitamin K. This is the optimal snack.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Double the chili oil. Add Sichuan peppercorns for that numbing heat. FULL HEAT.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "5 minutes. No cooking. Just smash and dress. This is my kind of recipe.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Three cucumbers: $1.50. Pantry sauces. Total cost: under $2. For four servings. That costs pennies.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "It's just... cucumbers. Where's the excitement? Where's the CHEESE?", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "The smashing creates irregular surfaces that increase dressing absorption by 60%. It's physics.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Four cloves of garlic RAW. That's aggressive. I respect it.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Low-calorie snack between meals. Keeps you full without derailing your macros. Smart move.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "The data shows this recipe went viral with 40 million views. Optimal taste-to-calorie ratio confirmed.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "The raw garlic and chili oil combo. Even I'm impressed. This SLAPS.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r053",
+    "name": "The 2-Minute Cheese Pickle Crisp",
+    "tagline": "Speed Demon made a snack in less time than it takes to read this tagline.",
+    "debateSummary": "Speed Demon said two minutes. Everyone laughed. Then melted cheese wrapped around a cold pickle hit the table and the laughing stopped. Maximum Junk demanded three cheese varieties. Speed Demon said no — speed is everything.",
+    "winningChef": "speed-demon",
+    "ingredients": [
+      { "name": "cheddar cheese", "amount": "120", "unit": "g" },
+      { "name": "dill pickle spears", "amount": "6", "unit": "spears" },
+      { "name": "black pepper", "amount": "0.5", "unit": "tsp" },
+      { "name": "garlic powder", "amount": "0.25", "unit": "tsp" },
+      { "name": "everything bagel seasoning", "amount": "1", "unit": "tsp" },
+      { "name": "hot sauce", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Spread shredded cheddar in thin circles on a hot non-stick pan. Season with pepper and garlic powder.", "timeMinutes": 1 },
+      { "number": 2, "instruction": "Cook until edges are golden and lacy. The cheese should be crispy but still flexible.", "timeMinutes": 1 },
+      { "number": 3, "instruction": "Immediately wrap each cheese crisp around a cold pickle spear while still pliable.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Sprinkle with everything bagel seasoning. Dash of hot sauce. Eat immediately.", "timeMinutes": 0 }
+    ],
+    "stats": {
+      "prepMinutes": 1,
+      "cookMinutes": 2,
+      "totalMinutes": 3,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "cheddar cheese", "replacement": "pepper jack", "note": "Built-in heat from the peppers" },
+      { "original": "dill pickle spears", "replacement": "pickled asparagus", "note": "Fancier, same tangy crunch" },
+      { "original": "hot sauce", "replacement": "mustard", "note": "Different tang, equally good with cheese and pickles" }
+    ],
+    "snap": "Two ingredients. Two minutes. One perfect salty-crunchy-tangy snack. Speed Demon doesn't miss.",
+    "debate": [
+      { "chefId": "speed-demon", "text": "Two minutes. TWO. Melt cheese, wrap pickle, eat. DONE.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "maximum-junk", "text": "Use THREE types of cheese. Cheddar, mozzarella, pepper jack. TRIPLE CRISP.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Three cheeses means three batches. That's 6 minutes. NO. One cheese. KEEP MOVING.", "timestamp": 8, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Per serving: 180 calories. The pickle is essentially zero-calorie. Acceptable snack density.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Pepper jack instead of cheddar. Built-in heat. No extra steps. Smart.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Block of cheddar: $3. Jar of pickles: $2.50. That's like $0.40 per serving.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "14g protein from the cheese per serving. Not bad for a 2-minute snack.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "The CRUNCH of the cheese hitting the cold pickle. That contrast is BEAUTIFUL.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Everything bagel seasoning on top. Takes 2 seconds. Adds massive flavor per second.", "timestamp": 26, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "3 minutes total including cleanup. Fastest snack ever created. Ship it.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r054",
+    "name": "The Pepperoni Cup Dip Disaster",
+    "tagline": "Maximum Junk turned pepperoni into edible bowls and filled them with cheese. Obviously.",
+    "debateSummary": "Maximum Junk created pepperoni cups filled with melted cheese dip. Max Flavour demanded hot honey. The Optimizer calculated the calorie count and left the room. Budget King loved the price tag.",
+    "winningChef": "maximum-junk",
+    "ingredients": [
+      { "name": "pepperoni slices", "amount": "24", "unit": "slices" },
+      { "name": "cream cheese", "amount": "120", "unit": "g" },
+      { "name": "mozzarella", "amount": "100", "unit": "g" },
+      { "name": "pizza sauce", "amount": "0.5", "unit": "cup" },
+      { "name": "Italian seasoning", "amount": "1", "unit": "tsp" },
+      { "name": "hot honey", "amount": "2", "unit": "tbsp" },
+      { "name": "garlic bread", "amount": "4", "unit": "slices" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Press pepperoni slices into mini muffin tin cups. Bake at 200C for 8 minutes until crispy.", "timeMinutes": 8 },
+      { "number": 2, "instruction": "Mix cream cheese, shredded mozzarella, pizza sauce, and Italian seasoning in a bowl.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Microwave cheese dip for 90 seconds, stir, repeat until melty and smooth.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Fill pepperoni cups with cheese dip. Drizzle hot honey over everything.", "timeMinutes": 2 },
+      { "number": 5, "instruction": "Toast garlic bread alongside. Use for extra dipping. No restraint.", "timeMinutes": 3 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 13,
+      "totalMinutes": 18,
+      "servings": 4,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "pepperoni slices", "replacement": "turkey pepperoni", "note": "Lower fat, still crisps up nicely" },
+      { "original": "cream cheese", "replacement": "ricotta", "note": "Lighter, slightly grainier but still creamy" },
+      { "original": "hot honey", "replacement": "honey + chili flakes", "note": "DIY version, same effect" }
+    ],
+    "snap": "Crispy pepperoni cups filled with molten cheese dip and drizzled with hot honey. Maximum Junk outdid himself.",
+    "debate": [
+      { "chefId": "maximum-junk", "text": "Pepperoni. CUPS. Filled with cheese. Drizzled with honey. This is ART.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Per cup: 85 calories of processed meat and saturated fat. I can't watch this.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Hot honey on pepperoni is the combination of the decade. Sweet, salty, spicy. Give it LIFE.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Pepperoni: $3. Cream cheese: $2. Feeds four people. That's $1.25 per serving.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "18 minutes for a party appetizer. That's efficient. I approve.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "The cream cheese and mozzarella blend. Trust the process. It becomes this GORGEOUS dip.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "Look, it's a snack, not a meal plan. But 8g protein per serving from the pepperoni and cheese.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Add crushed red pepper to the dip. And garlic. Always garlic.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "I'm leaving. Someone call me when there's a vegetable involved.", "timestamp": 26, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Garlic bread for dipping because why stop now. This is comfort food ROYALTY.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r055",
+    "name": "The Antioxidant Sugar Bombs",
+    "tagline": "The Optimizer found a way to snack on pure antioxidants disguised as candy.",
+    "debateSummary": "The Optimizer calculated the antioxidant content per cranberry. Max Flavour added cinnamon and orange zest. Budget King confirmed $2 for the whole batch. The sugar coating was the compromise that made everyone happy.",
+    "winningChef": "the-optimizer",
+    "ingredients": [
+      { "name": "fresh cranberries", "amount": "2", "unit": "cups" },
+      { "name": "sugar", "amount": "1", "unit": "cup" },
+      { "name": "water", "amount": "1", "unit": "cup" },
+      { "name": "cinnamon stick", "amount": "1", "unit": "whole" },
+      { "name": "orange zest", "amount": "1", "unit": "tbsp" },
+      { "name": "vanilla extract", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Simmer water, half the sugar, cinnamon stick, and orange zest until sugar dissolves.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Add cranberries to syrup. Gently cook for 2 minutes until they start to glisten.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Remove cranberries with a slotted spoon. Let them dry on a rack for 15 minutes.", "timeMinutes": 15 },
+      { "number": 4, "instruction": "Toss sticky cranberries in remaining sugar until evenly coated.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Spread on parchment paper. Let the sugar shell harden for 10 minutes.", "timeMinutes": 10 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 25,
+      "totalMinutes": 30,
+      "servings": 6,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "fresh cranberries", "replacement": "fresh blueberries", "note": "Sweeter, less tart, equally antioxidant-rich" },
+      { "original": "sugar", "replacement": "monk fruit sweetener", "note": "Zero-calorie coating, slightly different texture" },
+      { "original": "cinnamon stick", "replacement": "star anise", "note": "More exotic flavor, beautiful aroma" }
+    ],
+    "snap": "Crunchy sugar shell, tart cranberry pop. The Optimizer tricked everyone into eating antioxidants for dessert.",
+    "debate": [
+      { "chefId": "the-optimizer", "text": "Cranberries: highest antioxidant density of any common fruit. 8983 ORAC units per cup.", "timestamp": 2, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "You're candy-coating fruit and calling it health food? I respect the hustle.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Add cinnamon and orange zest to the syrup. Warm spice plus citrus. That's where flavour LIVES.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Cranberries: $2 a bag in season. Sugar: pennies. Whole batch for $2.50. That costs pennies.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "30 minutes with all that drying time? Brutal. But I'll admit they're worth the wait.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Per serving with the sugar coating: 80 calories. Without: 25 calories. The data shows acceptable trade-off.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Great post-workout snack. Quick carbs plus antioxidants for recovery. Smart.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "The tart pop when you bite through the sugar shell. That contrast is everything.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "Proanthocyanidins in cranberries support urinary tract health. This is FUNCTIONAL SNACKING.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "maximum-junk", "text": "Okay fine, they're basically CANDY and I love them. BEAUTIFUL.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r056",
+    "name": "The Hot Honey Salmon Showstopper",
+    "tagline": "Max Flavour glazed salmon so hard it could be in a museum.",
+    "debateSummary": "Max Flavour built a sticky sweet-spicy glaze that caramelizes on salmon like magic. Coach Bulk loved the 35g protein per fillet. Speed Demon discovered the air fryer shortcut. Budget King made DIY hot honey for pennies.",
+    "winningChef": "max-flavour",
+    "ingredients": [
+      { "name": "salmon fillets", "amount": "2", "unit": "fillets" },
+      { "name": "hot honey", "amount": "3", "unit": "tbsp" },
+      { "name": "soy sauce", "amount": "2", "unit": "tbsp" },
+      { "name": "garlic", "amount": "3", "unit": "cloves" },
+      { "name": "butter", "amount": "1", "unit": "tbsp" },
+      { "name": "sesame seeds", "amount": "1", "unit": "tbsp" },
+      { "name": "green onions", "amount": "3", "unit": "stalks" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Pat salmon dry. Season with salt and pepper.", "timeMinutes": 2 },
+      { "number": 2, "instruction": "Mix hot honey, soy sauce, and minced garlic into a glaze.", "timeMinutes": 1 },
+      { "number": 3, "instruction": "Sear salmon skin-side down in butter until skin is crispy. Flip.", "timeMinutes": 5 },
+      { "number": 4, "instruction": "Pour glaze over salmon. Let it bubble and caramelize for 3 minutes.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Baste the salmon with the pan sauce. Top with sesame seeds and green onions.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 12,
+      "totalMinutes": 17,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "hot honey", "replacement": "regular honey + chili flakes", "note": "DIY hot honey in 2 seconds, save $5" },
+      { "original": "salmon fillets", "replacement": "cod or tilapia fillets", "note": "Milder fish, cheaper, still takes the glaze well" },
+      { "original": "butter", "replacement": "coconut oil", "note": "Higher smoke point, subtle tropical note" }
+    ],
+    "snap": "Sticky, sweet, spicy, caramelized salmon in 17 minutes. Max Flavour just retired the boring baked fish forever.",
+    "debate": [
+      { "chefId": "max-flavour", "text": "Hot honey and soy sauce on salmon. Sweet, salty, spicy in one glaze. FULL HEAT.", "timestamp": 2, "intensity": "explosive" },
+      { "chefId": "coach-bulk", "text": "35g protein per fillet. Omega-3 fatty acids. Perfect post-workout meal. Let's go.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Air fryer. 10 minutes. Glaze it first, let the hot air do the caramelizing.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "Salmon is $8 a pound. But DIY hot honey — regular honey plus chili flakes — saves $5.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Crispy skin is non-negotiable. Skin side DOWN first. High heat. Don't touch it.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Salmon provides 2.3g omega-3 per serving. Hot honey adds minimal calories. Favorable profile.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Extra butter in the pan. The glaze needs to be GLOSSY and rich.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Baste the salmon with that pan sauce. Every drop of glaze on the fish. Non-negotiable.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "17 minutes for a dish that looks like fine dining. That's a massive efficiency win.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Sesame seeds and green onions on top. The final layer. That's where it all comes together.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r057",
+    "name": "The Chopped Caesar Speed Wrap",
+    "tagline": "Speed Demon chopped a salad into a tortilla so fast it broke a personal record.",
+    "debateSummary": "Speed Demon used rotisserie chicken and had wraps done in 8 minutes. Coach Bulk doubled the protein. Maximum Junk added bacon. The chopping technique ensures every single bite has everything.",
+    "winningChef": "speed-demon",
+    "ingredients": [
+      { "name": "rotisserie chicken", "amount": "200", "unit": "g" },
+      { "name": "romaine lettuce", "amount": "2", "unit": "cups" },
+      { "name": "parmesan", "amount": "40", "unit": "g" },
+      { "name": "Caesar dressing", "amount": "3", "unit": "tbsp" },
+      { "name": "croutons", "amount": "0.5", "unit": "cup" },
+      { "name": "flour tortillas", "amount": "2", "unit": "large" },
+      { "name": "lemon", "amount": "1", "unit": "whole" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Shred rotisserie chicken. Chop romaine into small pieces. Crush croutons roughly.", "timeMinutes": 3 },
+      { "number": 2, "instruction": "Toss chicken, romaine, parmesan, and croutons with Caesar dressing and lemon juice.", "timeMinutes": 2 },
+      { "number": 3, "instruction": "Chop everything together on a cutting board until finely mixed.", "timeMinutes": 2 },
+      { "number": 4, "instruction": "Load into warmed tortillas. Roll tightly, cut in half. Eat immediately.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 3,
+      "totalMinutes": 8,
+      "servings": 2,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "rotisserie chicken", "replacement": "canned tuna", "note": "Even cheaper, different protein, still works" },
+      { "original": "flour tortillas", "replacement": "large lettuce leaves", "note": "Carb-free wrap, crunchier" },
+      { "original": "Caesar dressing", "replacement": "Greek yogurt + lemon + garlic", "note": "Lighter, more protein, tangy" }
+    ],
+    "snap": "8 minutes from fridge to face. Every bite has chicken, crouton, parm, and dressing. Speed Demon reinvented lunch.",
+    "debate": [
+      { "chefId": "speed-demon", "text": "Rotisserie chicken. Already cooked. Zero grilling time. 8 minutes TOTAL.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "200g chicken is 40g protein. Wrap it up and you've got gains on the go. Let's go.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Add bacon. Chopped bacon in a Caesar wrap is a GIFT to humanity.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Bacon means cooking. Cooking means time. NO. Use the chicken. KEEP MOVING.", "timestamp": 11, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "Fresh lemon juice in the dressing. Not bottled. The acid brightens everything.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Rotisserie chicken: $5 and feeds you for 3 meals. Tortillas: $2. Per serving: $2.50.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "The chopping technique ensures uniform distribution. Each bite delivers balanced macros. Efficient.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Extra parmesan. Shave it thick. The cheese is what makes a Caesar.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "speed-demon", "text": "Chop, mix, wrap, cut, eat. Five verbs. Eight minutes. DONE.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "coach-bulk", "text": "This is meal prep gold. Make five of these on Sunday. 40g protein each. Fuel the week.", "timestamp": 29, "intensity": "heated" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r058",
+    "name": "The Bedtime Bargain Mocktail",
+    "tagline": "Budget King made a sleep drink for less than the cost of yawning at a bar.",
+    "debateSummary": "Budget King built a wellness mocktail for $1.50 per glass. The Optimizer validated the melatonin science. Max Flavour snuck in mint and pomegranate. Speed Demon appreciated the 3-minute total time.",
+    "winningChef": "budget-king",
+    "ingredients": [
+      { "name": "tart cherry juice concentrate", "amount": "2", "unit": "tbsp" },
+      { "name": "magnesium powder", "amount": "1", "unit": "scoop" },
+      { "name": "sparkling water", "amount": "1", "unit": "cup" },
+      { "name": "lime", "amount": "1", "unit": "whole" },
+      { "name": "fresh mint", "amount": "4", "unit": "leaves" },
+      { "name": "honey", "amount": "1", "unit": "tsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Add tart cherry juice concentrate and magnesium powder to a glass. Stir to dissolve.", "timeMinutes": 1 },
+      { "number": 2, "instruction": "Add honey and squeeze in lime juice. Muddle mint leaves gently.", "timeMinutes": 1 },
+      { "number": 3, "instruction": "Top slowly with sparkling water. Stir gently to combine.", "timeMinutes": 1 },
+      { "number": 4, "instruction": "Add ice. Garnish with lime wheel and mint sprig. Drink 30 minutes before bed.", "timeMinutes": 0 }
+    ],
+    "stats": {
+      "prepMinutes": 3,
+      "cookMinutes": 0,
+      "totalMinutes": 3,
+      "servings": 1,
+      "difficulty": "easy",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "tart cherry juice concentrate", "replacement": "pomegranate juice", "note": "Different flavor, still loaded with antioxidants" },
+      { "original": "magnesium powder", "replacement": "calm tea (chamomile)", "note": "Gentler option if you don't have magnesium" },
+      { "original": "honey", "replacement": "agave nectar", "note": "Vegan-friendly, slightly thinner sweetness" }
+    ],
+    "snap": "$1.50 per glass. Natural melatonin. Budget King made sleep affordable and delicious.",
+    "debate": [
+      { "chefId": "budget-king", "text": "Tart cherry juice CONCENTRATE. Not the $8 bottle. The concentrate is $5 and lasts 20 servings. $0.25 per glass.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Tart cherries contain natural melatonin — 13.5ng per gram. The data supports improved sleep latency.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Add fresh mint and a splash of pomegranate. This needs to taste like a cocktail, not medicine.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "3 minutes. Mix, pour, drink. Fastest recipe in the entire app.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Magnesium supports muscle recovery during sleep. 400mg before bed. Gains while you rest.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Total cost per glass: $1.50. A mocktail at a bar is $12. I just saved you $10.50.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "It's just... juice and fizzy water. Where's the fun?", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "The lime and honey balance the tartness. Fresh mint makes it AROMATIC. This is elegant.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "One bottle of concentrate makes 20 drinks. That's $0.25 per serving for the cherry juice alone. CROWN ME.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "the-optimizer", "text": "Magnesium citrate bioavailability: 30%. Optimal timing: 30 minutes pre-sleep. The science is clear.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r059",
+    "name": "The $3 Mediterranean Sheet Pan Throne",
+    "tagline": "Budget King turned chicken thighs and potatoes into a one-pan kingdom.",
+    "debateSummary": "Budget King proved chicken thighs are the cheapest protein that doesn't taste cheap. Max Flavour demanded lemon and olives. The crispy skin rendered fat into the potatoes below. One pan, $3 per serving, zero leftovers.",
+    "winningChef": "budget-king",
+    "ingredients": [
+      { "name": "chicken thighs", "amount": "4", "unit": "pieces" },
+      { "name": "baby potatoes", "amount": "400", "unit": "g" },
+      { "name": "lemon", "amount": "1", "unit": "whole" },
+      { "name": "Kalamata olives", "amount": "0.5", "unit": "cup" },
+      { "name": "garlic", "amount": "5", "unit": "cloves" },
+      { "name": "dried oregano", "amount": "1", "unit": "tbsp" },
+      { "name": "olive oil", "amount": "3", "unit": "tbsp" },
+      { "name": "feta", "amount": "50", "unit": "g" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Halve potatoes. Toss with olive oil, oregano, smashed garlic, and lemon slices.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Spread potatoes on a sheet pan. Season chicken thighs and place skin-side up on top.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Roast at 220C for 30 minutes until skin is golden and crackling.", "timeMinutes": 30 },
+      { "number": 4, "instruction": "Scatter olives over the pan. Return to oven for 5 more minutes.", "timeMinutes": 5 },
+      { "number": 5, "instruction": "Crumble feta over everything. Squeeze roasted lemon over the top.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 8,
+      "cookMinutes": 37,
+      "totalMinutes": 45,
+      "servings": 4,
+      "difficulty": "easy",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "Kalamata olives", "replacement": "capers", "note": "Smaller, punchier brine flavor" },
+      { "original": "baby potatoes", "replacement": "sweet potatoes", "note": "Sweeter, more beta-carotene" },
+      { "original": "feta", "replacement": "goat cheese", "note": "Tangier, creamier when it hits the hot pan" }
+    ],
+    "snap": "One pan. $3 per serving. Crispy chicken skin dripping into lemony potatoes. Budget King rules the sheet pan.",
+    "debate": [
+      { "chefId": "budget-king", "text": "Chicken thighs: $1.99 a pound. Potatoes: $0.50 a pound. Four servings for $6 total. CROWN ME.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Lemon slices roasted alongside. They caramelize and get sweet. Non-negotiable.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "45 minutes?! I could eat three meals in that time.", "timestamp": 8, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "8 minutes of actual work. The oven does the rest. You're free for 37 minutes.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "the-optimizer", "text": "One pan means the chicken fat renders into the potatoes. Calorie-dense but nutrient-complete.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Each thigh is 26g protein. Four thighs, four servings. That's 26g protein per plate. Solid.", "timestamp": 17, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Five garlic cloves smashed and scattered. They roast into sweet, golden paste. FULL HEAT territory.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Feta crumbled over hot crispy chicken. It gets all melty and soft. BEAUTIFUL.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "$1.50 per serving. Feeds a family of four. One sheet pan to wash. I'm a genius.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "max-flavour", "text": "Squeeze the roasted lemon over everything at the end. That burnt citrus acid is where flavour LIVES.", "timestamp": 29, "intensity": "heated" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r060",
+    "name": "The Slow-Roasted Onion Cathedral",
+    "tagline": "Max Flavour turned the humblest vegetable into a slow-roasted masterpiece.",
+    "debateSummary": "Max Flavour scored whole onions, stuffed them with butter and spices, and slow-roasted them into sweet, tender glory. Budget King loved that onions cost $0.50 each. Maximum Junk wanted ranch and extra butter. Nobody expected a vegetable to steal the show.",
+    "winningChef": "maximum-junk",
+    "ingredients": [
+      { "name": "large onions", "amount": "4", "unit": "whole" },
+      { "name": "butter", "amount": "4", "unit": "tbsp" },
+      { "name": "olive oil", "amount": "2", "unit": "tbsp" },
+      { "name": "garlic", "amount": "4", "unit": "cloves" },
+      { "name": "fresh thyme", "amount": "6", "unit": "sprigs" },
+      { "name": "paprika", "amount": "1", "unit": "tsp" },
+      { "name": "parmesan", "amount": "40", "unit": "g" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Peel onions. Score deep cross-hatches on top, cutting 2/3 down. Don't cut through.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Push butter, garlic slivers, and thyme into the cuts. Drizzle with olive oil and paprika.", "timeMinutes": 3 },
+      { "number": 3, "instruction": "Wrap each onion in foil. Bake at 190C for 40 minutes.", "timeMinutes": 40 },
+      { "number": 4, "instruction": "Unwrap. Shower with parmesan. Return to oven uncovered for 10 minutes until golden.", "timeMinutes": 10 },
+      { "number": 5, "instruction": "Serve whole. Let everyone pull apart the buttery, caramelized layers.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 10,
+      "cookMinutes": 52,
+      "totalMinutes": 62,
+      "servings": 4,
+      "difficulty": "adventurous",
+      "costTier": "$"
+    },
+    "smartSwaps": [
+      { "original": "butter", "replacement": "ghee", "note": "Nuttier flavor, higher smoke point" },
+      { "original": "parmesan", "replacement": "gruyère", "note": "Melts gooier, more fondue-like" },
+      { "original": "fresh thyme", "replacement": "rosemary", "note": "More piney, equally aromatic" }
+    ],
+    "snap": "Four onions, butter, slow heat, patience. The humblest vegetable becomes the star of the table.",
+    "debate": [
+      { "chefId": "max-flavour", "text": "Whole onions. Scored deep. Stuffed with garlic butter and thyme. Slow-roasted until SWEET.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "62 MINUTES for ONIONS?! I'm having a crisis.", "timestamp": 5, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "Onions are $0.50 each. Four onions, some butter. Feeds four for $3 total. That costs pennies.", "timestamp": 8, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Extra butter in every cut. And drizzle ranch on top when they come out. Trust the process.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Slow-roasting converts onion's sulfur compounds into sweet glucose. Caramelization improves palatability by 200%.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Parmesan on top getting all golden and crispy. This is BEAUTIFUL. Comfort food royalty.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "The garlic melts INTO the onion layers. Every bite is butter, garlic, sweet onion. Non-negotiable.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "It's a side dish. Pair it with grilled steak for 50g protein. Then we're talking gains.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Pull apart the layers like a flower. Each petal is buttery and caramelized. I could CRY.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "budget-king", "text": "$0.75 per serving for a dish that looks like it came from a fancy restaurant. Math is beautiful.", "timestamp": 29, "intensity": "calm" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r061",
+    "name": "The Zero-Waste Carrot Top Revolution",
+    "tagline": "Coach Bulk made gains from parts of vegetables most people throw away.",
+    "debateSummary": "Coach Bulk built a high-protein sheet pan dinner using vegetable scraps for pesto. The Optimizer approved the sustainability angle. Budget King loved eating food you normally discard. The carrot top pesto shocked everyone.",
+    "winningChef": "coach-bulk",
+    "ingredients": [
+      { "name": "carrots with tops", "amount": "1", "unit": "bunch" },
+      { "name": "chickpeas", "amount": "1", "unit": "can" },
+      { "name": "sweet potato", "amount": "1", "unit": "large" },
+      { "name": "chicken breast", "amount": "200", "unit": "g" },
+      { "name": "olive oil", "amount": "3", "unit": "tbsp" },
+      { "name": "garlic", "amount": "4", "unit": "cloves" },
+      { "name": "lemon", "amount": "1", "unit": "whole" },
+      { "name": "pine nuts", "amount": "2", "unit": "tbsp" },
+      { "name": "parmesan", "amount": "30", "unit": "g" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Cube sweet potato and halve carrots. Toss with oil, salt, and drained chickpeas on a sheet pan.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Season chicken breast and place on the same pan. Roast everything at 220C.", "timeMinutes": 25 },
+      { "number": 3, "instruction": "While roasting, blend carrot tops with garlic, olive oil, pine nuts, parmesan, and lemon juice.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Slice chicken. Plate veggies and chickpeas. Drizzle carrot top pesto over everything.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Squeeze extra lemon. Scatter leftover pine nuts on top.", "timeMinutes": 1 }
+    ],
+    "stats": {
+      "prepMinutes": 10,
+      "cookMinutes": 28,
+      "totalMinutes": 38,
+      "servings": 2,
+      "difficulty": "adventurous",
+      "costTier": "$$$"
+    },
+    "smartSwaps": [
+      { "original": "chicken breast", "replacement": "firm tofu, cubed", "note": "Plant-based protein, roasts crispy on the pan" },
+      { "original": "pine nuts", "replacement": "sunflower seeds", "note": "Fraction of the cost, similar nutty crunch" },
+      { "original": "carrots with tops", "replacement": "regular carrots + basil", "note": "Classic pesto if you're not feeling adventurous" }
+    ],
+    "snap": "Carrot tops become pesto. Scraps become dinner. Coach Bulk made gains AND saved the planet.",
+    "debate": [
+      { "chefId": "coach-bulk", "text": "200g chicken breast plus chickpeas. That's 50g protein for the whole pan. Feed the muscle.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Carrot tops contain 6x more vitamin C than the roots. Discarding them is nutritionally criminal.", "timestamp": 5, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "You're eating parts you'd normally throw away. That's free food. I'm emotional.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Carrot top pesto is herbaceous with a slight bitterness. Add extra garlic and lemon. Give it LIFE.", "timestamp": 11, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Everything on one sheet pan. 28 minutes in the oven. I respect the efficiency.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Pesto from CARROT TOPS? That's either genius or insane. I'm scared.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "The chickpeas roast until crispy. That's 15g protein plus fiber. Perfect complex carbs for gains.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "This meal reduces food waste by 30% while maintaining optimal nutrient density. The data supports this approach.", "timestamp": 23, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "Toast those pine nuts first. The Maillard reaction on nuts is where flavour LIVES.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "coach-bulk", "text": "25g protein per serving. Fiber from chickpeas. Vitamins from the scraps. Complete meal. Let's go.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r062",
+    "name": "The 15-Minute Miso Ramen Redemption",
+    "tagline": "Coach Bulk turned instant ramen into a protein-packed bowl that gym bros dream about.",
+    "debateSummary": "Coach Bulk demanded protein in the ramen. Max Flavour added chili oil and garlic. Speed Demon insisted on using instant noodles in the homemade broth. The result: restaurant-depth flavor in 20 minutes with 35g protein.",
+    "winningChef": "coach-bulk",
+    "ingredients": [
+      { "name": "ramen noodles", "amount": "2", "unit": "packs" },
+      { "name": "white miso paste", "amount": "3", "unit": "tbsp" },
+      { "name": "chicken broth", "amount": "4", "unit": "cups" },
+      { "name": "soy sauce", "amount": "1", "unit": "tbsp" },
+      { "name": "sesame oil", "amount": "1", "unit": "tsp" },
+      { "name": "eggs", "amount": "2", "unit": "whole" },
+      { "name": "green onions", "amount": "3", "unit": "stalks" },
+      { "name": "corn", "amount": "0.5", "unit": "cup" },
+      { "name": "sliced pork belly", "amount": "150", "unit": "g" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Soft-boil eggs: 6.5 minutes in boiling water, ice bath immediately. Peel and halve.", "timeMinutes": 8 },
+      { "number": 2, "instruction": "Sear pork belly slices in a dry pan until crispy on both sides.", "timeMinutes": 4 },
+      { "number": 3, "instruction": "Heat chicken broth. Whisk in miso paste, soy sauce, and sesame oil off heat.", "timeMinutes": 3 },
+      { "number": 4, "instruction": "Cook ramen noodles according to package. Drain and divide into bowls.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Ladle miso broth over noodles. Top with egg, pork, corn, and green onions.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 5,
+      "cookMinutes": 15,
+      "totalMinutes": 20,
+      "servings": 2,
+      "difficulty": "medium",
+      "costTier": "$$$"
+    },
+    "smartSwaps": [
+      { "original": "sliced pork belly", "replacement": "chicken thigh, sliced", "note": "Leaner, cheaper, still delicious in broth" },
+      { "original": "white miso paste", "replacement": "red miso paste", "note": "Deeper, funkier flavor — more intense" },
+      { "original": "ramen noodles", "replacement": "udon noodles", "note": "Thicker, chewier, different but great" }
+    ],
+    "snap": "Homemade miso broth in 15 minutes. Soft-boiled eggs. Crispy pork. Coach Bulk made ramen with 35g protein.",
+    "debate": [
+      { "chefId": "coach-bulk", "text": "Ramen but make it gains. Pork belly for protein and fat. Eggs for 12g more. 35g protein per bowl. Let's go.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Add chili oil to the broth. And crispy fried garlic on top. That's where flavour LIVES.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Use instant noodles. Throw away the seasoning packet. Use the homemade broth. 3-minute noodles.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "Miso contains probiotics that support gut health. 1g per tablespoon is clinically relevant.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "budget-king", "text": "Miso paste lasts months in the fridge. Per serving cost: $0.30 for the broth. Ramen noodles: $0.50.", "timestamp": 14, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "6.5 minute egg. Not 6. Not 7. The yolk needs to be JAMMY. That's where the protein stays intact.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Whisk the miso OFF heat. Boiling kills the flavor compounds. Respect the ingredient.", "timestamp": 20, "intensity": "heated" },
+      { "chefId": "maximum-junk", "text": "Extra corn. Extra pork. Make it a LOADED bowl. Trust the process.", "timestamp": 23, "intensity": "explosive" },
+      { "chefId": "speed-demon", "text": "20 minutes for homemade ramen that tastes like a 12-hour broth. Massive time efficiency.", "timestamp": 26, "intensity": "calm" },
+      { "chefId": "coach-bulk", "text": "Post-workout ramen. Carbs for glycogen, protein for recovery, warm broth for the soul. Gains.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "r063",
+    "name": "The Five-Sauce Meal Prep Throne",
+    "tagline": "Coach Bulk batch-cooked 5 days of protein and made each one taste different.",
+    "debateSummary": "Coach Bulk built the ultimate meal prep: 40g protein per container, 5 different sauces for variety. Speed Demon approved the sheet pan method. Max Flavour designed the sauces. Budget King kept the whole week under $20.",
+    "winningChef": "coach-bulk",
+    "ingredients": [
+      { "name": "chicken breast", "amount": "750", "unit": "g" },
+      { "name": "broccoli", "amount": "3", "unit": "cups" },
+      { "name": "rice", "amount": "2", "unit": "cups" },
+      { "name": "soy sauce", "amount": "3", "unit": "tbsp" },
+      { "name": "olive oil", "amount": "2", "unit": "tbsp" },
+      { "name": "garlic powder", "amount": "1", "unit": "tbsp" },
+      { "name": "sesame seeds", "amount": "2", "unit": "tbsp" },
+      { "name": "sriracha", "amount": "2", "unit": "tbsp" },
+      { "name": "honey", "amount": "2", "unit": "tbsp" }
+    ],
+    "steps": [
+      { "number": 1, "instruction": "Season chicken with garlic powder, salt, pepper, and olive oil. Spread on sheet pan with broccoli.", "timeMinutes": 5 },
+      { "number": 2, "instruction": "Roast at 220C for 20 minutes until chicken hits 74C internal.", "timeMinutes": 20 },
+      { "number": 3, "instruction": "Cook rice according to package. Season with a splash of soy sauce.", "timeMinutes": 15 },
+      { "number": 4, "instruction": "Make two quick sauces: teriyaki (soy + honey) and sriracha honey (sriracha + honey). Store separately.", "timeMinutes": 3 },
+      { "number": 5, "instruction": "Slice chicken. Divide rice, chicken, and broccoli into 5 containers.", "timeMinutes": 5 },
+      { "number": 6, "instruction": "Add different sauce to each container. Sprinkle sesame seeds. Refrigerate for the week.", "timeMinutes": 2 }
+    ],
+    "stats": {
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "totalMinutes": 35,
+      "servings": 5,
+      "difficulty": "easy",
+      "costTier": "$$"
+    },
+    "smartSwaps": [
+      { "original": "chicken breast", "replacement": "chicken thighs", "note": "Juicier, cheaper, slightly more fat" },
+      { "original": "rice", "replacement": "quinoa", "note": "Complete protein, more fiber, nuttier flavor" },
+      { "original": "broccoli", "replacement": "green beans or asparagus", "note": "Different texture, equally nutritious" }
+    ],
+    "snap": "5 containers. 40g protein each. 5 different sauces. Coach Bulk just won meal prep forever.",
+    "debate": [
+      { "chefId": "coach-bulk", "text": "750g chicken breast. That's 40g protein per container across 5 meals. FIVE DAYS of gains. Let's go.", "timestamp": 2, "intensity": "heated" },
+      { "chefId": "max-flavour", "text": "Five different sauces or it's the same boring meal five times. Teriyaki, peanut, buffalo, lemon herb, sriracha honey.", "timestamp": 5, "intensity": "heated" },
+      { "chefId": "speed-demon", "text": "Sheet pan everything. 25 minutes of cooking for 5 meals. That's 5 minutes per meal. EFFICIENT.", "timestamp": 8, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "750g chicken breast: $6. Rice in bulk: $1. Broccoli: $2. Five meals for $12 total. $2.40 per serving.", "timestamp": 11, "intensity": "calm" },
+      { "chefId": "maximum-junk", "text": "Chicken and broccoli? This is the most boring meal in existence.", "timestamp": 14, "intensity": "heated" },
+      { "chefId": "coach-bulk", "text": "The sauces change everything. Day 1 teriyaki, Day 2 sriracha honey. Never boring. Feed the muscle.", "timestamp": 17, "intensity": "heated" },
+      { "chefId": "the-optimizer", "text": "40g protein, 45g carbs, 8g fat per container. That's a 40/45/15 macro split. Textbook for lean muscle.", "timestamp": 20, "intensity": "calm" },
+      { "chefId": "max-flavour", "text": "The sriracha honey sauce: equal parts sriracha and honey with a squeeze of lime. FULL HEAT meets sweet.", "timestamp": 23, "intensity": "heated" },
+      { "chefId": "budget-king", "text": "$2.40 per meal. For 40g protein. Eating out would cost $12. I saved $48 this week. CROWN ME.", "timestamp": 26, "intensity": "explosive" },
+      { "chefId": "coach-bulk", "text": "Sunday prep. Monday through Friday gains. This is the system. 200g protein per week. Consistency wins.", "timestamp": 29, "intensity": "explosive" }
+    ],
+    "createdAt": ""
+  }
+]
