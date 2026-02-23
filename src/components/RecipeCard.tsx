@@ -6,6 +6,7 @@ import type { Recipe } from "@/lib/types";
 import { getChef } from "@/lib/chefs";
 import { useForkItStore } from "@/lib/store";
 import { useT, useLang, getLocalizedChef } from "@/lib/i18n";
+import { useLikes } from "@/lib/use-likes";
 import { RecipeStats } from "./RecipeStats";
 import { IngredientList } from "./IngredientList";
 import { StepList } from "./StepList";
@@ -61,6 +62,7 @@ export function RecipeCard({ recipe, onBack, onTryAnother }: RecipeCardProps) {
   const localizedChef = getLocalizedChef(chef, lang);
 
   const isSaved = savedRecipeIds.includes(recipe.id);
+  const { count: likeCount, hasLiked, toggleLike } = useLikes(recipe.id);
   const [showDebate, setShowDebate] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
 
@@ -393,25 +395,28 @@ export function RecipeCard({ recipe, onBack, onTryAnother }: RecipeCardProps) {
         }}
       >
         <div className="max-w-lg mx-auto px-5 pb-4 pt-3 flex items-center gap-3">
-          {/* Save button */}
+          {/* Like button with counter */}
           <motion.button
-            onClick={handleSave}
+            onClick={() => {
+              toggleLike();
+              handleSave();
+            }}
             whileTap={{ scale: 0.9 }}
-            className="flex items-center justify-center w-12 h-12 rounded-full cursor-pointer"
+            className="flex items-center gap-1.5 h-12 px-4 rounded-full cursor-pointer"
             style={{
               background: '#fff',
               border: '3px solid #000',
               boxShadow: '2px 2px 0 #000',
             }}
           >
-            {isSaved ? (
+            {isSaved || hasLiked ? (
               <motion.svg
                 key="saved"
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ type: "spring", stiffness: 500, damping: 15 }}
-                width="20"
-                height="20"
+                width="18"
+                height="18"
                 viewBox="0 0 20 20"
                 fill="var(--color-forkit-red)"
               >
@@ -419,8 +424,8 @@ export function RecipeCard({ recipe, onBack, onTryAnother }: RecipeCardProps) {
               </motion.svg>
             ) : (
               <svg
-                width="20"
-                height="20"
+                width="18"
+                height="18"
                 viewBox="0 0 20 20"
                 fill="none"
                 stroke="#000"
@@ -432,6 +437,11 @@ export function RecipeCard({ recipe, onBack, onTryAnother }: RecipeCardProps) {
                   strokeLinejoin="round"
                 />
               </svg>
+            )}
+            {likeCount > 0 && (
+              <span className="text-[13px] font-bold" style={{ color: '#000' }}>
+                {likeCount}
+              </span>
             )}
           </motion.button>
 

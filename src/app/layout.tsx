@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { HtmlLangSetter } from "@/components/HtmlLangSetter";
 import { NavigationWrapper } from "@/components/NavigationWrapper";
@@ -115,6 +117,8 @@ export default function RootLayout({
         <HtmlLangSetter />
         <NavigationWrapper />
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
