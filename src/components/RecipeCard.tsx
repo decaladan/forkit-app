@@ -118,9 +118,6 @@ export function RecipeCard({ recipe, onBack, onTryAnother }: RecipeCardProps) {
         {toast && <Toast message={toast} onDone={() => setToast(null)} />}
       </AnimatePresence>
 
-      {/* Comic sunburst background */}
-      <div className="sunburst" />
-
       {/* Scrollable content */}
       <div className="relative z-10 max-w-lg mx-auto px-5 pt-safe">
         {/* Top bar — extra padding to clear fixed header */}
