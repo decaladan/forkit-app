@@ -12,72 +12,76 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
 const FILE_NAME = "likes.json";
 
 let cache: Record<string, number> | null = null;
-let gistSha: string | null = null; // needed for updates
 
-/** Fetch likes from the Gist (cold start only) */
-async function loadFromGist(): Promise<Record<string, number>> {
-  if (cache) return cache;
+const gistHeaders = {
+  Authorization: `token ${GITHUB_TOKEN}`,
+  Accept: "application/vnd.github.v3+json",
+  "Content-Type": "application/json",
+};
 
-  if (!GIST_ID || !GITHUB_TOKEN) {
-    cache = {};
-    return cache;
-  }
+/** Fetch likes from the Gist */
+async function fetchGist(): Promise<Record<string, number>> {
+  if (!GIST_ID || !GITHUB_TOKEN) return {};
 
   try {
     const res = await fetch(`https://api.github.com/gists/${GIST_ID}`, {
-      headers: {
-        Authorization: `token ${GITHUB_TOKEN}`,
-        Accept: "application/vnd.github.v3+json",
-      },
+      headers: gistHeaders,
       cache: "no-store",
     });
-
-    if (!res.ok) {
-      cache = {};
-      return cache;
-    }
-
+    if (!res.ok) return {};
     const gist = await res.json();
     const file = gist.files?.[FILE_NAME];
-    cache = file ? JSON.parse(file.content) : {};
+    return file ? JSON.parse(file.content) : {};
   } catch {
-    cache = {};
+    return {};
   }
-
-  return cache!;
 }
 
-/** Write likes back to the Gist (fire and forget) */
+/** Load cache from Gist on cold start */
+async function ensureCache(): Promise<Record<string, number>> {
+  if (cache) return cache;
+  cache = await fetchGist();
+  return cache;
+}
+
+/** Merge local cache with remote and save. Takes the max of each count
+ *  to avoid losing likes from concurrent serverless instances. */
 function saveToGist() {
   if (!GIST_ID || !GITHUB_TOKEN || !cache) return;
 
-  const body = JSON.stringify({
-    files: {
-      [FILE_NAME]: { content: JSON.stringify(cache) },
-    },
-  });
+  const localCache = { ...cache };
 
-  // Non-blocking write — don't await
-  fetch(`https://api.github.com/gists/${GIST_ID}`, {
-    method: "PATCH",
-    headers: {
-      Authorization: `token ${GITHUB_TOKEN}`,
-      Accept: "application/vnd.github.v3+json",
-      "Content-Type": "application/json",
-    },
-    body,
-  }).catch(() => {
-    // Gist write failed — likes still in memory
-  });
+  // Read-merge-write: fetch latest, take max of each count, write back
+  fetchGist()
+    .then((remote) => {
+      // Merge: for each key, keep the higher count
+      const merged = { ...remote };
+      for (const [id, count] of Object.entries(localCache)) {
+        merged[id] = Math.max(merged[id] ?? 0, count);
+      }
+      // Update local cache with merged data
+      cache = merged;
+
+      return fetch(`https://api.github.com/gists/${GIST_ID}`, {
+        method: "PATCH",
+        headers: gistHeaders,
+        body: JSON.stringify({
+          files: { [FILE_NAME]: { content: JSON.stringify(merged) } },
+        }),
+      });
+    })
+    .catch(() => {
+      // Gist write failed — likes still in memory
+    });
 }
 
 export async function getLikeCount(recipeId: string): Promise<number> {
-  const store = await loadFromGist();
+  const store = await ensureCache();
   return store[recipeId] ?? 0;
 }
 
 export async function incrementLike(recipeId: string): Promise<number> {
-  const store = await loadFromGist();
+  const store = await ensureCache();
   store[recipeId] = (store[recipeId] ?? 0) + 1;
   saveToGist();
   return store[recipeId];
@@ -86,7 +90,7 @@ export async function incrementLike(recipeId: string): Promise<number> {
 export async function getLikeCounts(
   ids: string[]
 ): Promise<Record<string, number>> {
-  const store = await loadFromGist();
+  const store = await ensureCache();
   const result: Record<string, number> = {};
   for (const id of ids) {
     result[id] = store[id] ?? 0;
