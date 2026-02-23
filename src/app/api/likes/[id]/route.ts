@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getRedis } from "@/lib/redis";
+import { getLikeCount, incrementLike } from "@/lib/likes-store";
 import { SEED_RECIPES } from "@/data/seed-recipes";
 
 const validIds = new Set(SEED_RECIPES.map((r) => r.id));
 
-// GET /api/likes/[id] — returns { count: number }
+// GET /api/likes/[id]
 export async function GET(
   _req: NextRequest,
   { params }: { params: Promise<{ id: string }> }
@@ -15,16 +15,10 @@ export async function GET(
     return NextResponse.json({ count: 0 }, { status: 404 });
   }
 
-  const redis = getRedis();
-  if (!redis) {
-    return NextResponse.json({ count: 0 });
-  }
-
-  const count = (await redis.get<number>(`likes:${id}`)) ?? 0;
-  return NextResponse.json({ count });
+  return NextResponse.json({ count: getLikeCount(id) });
 }
 
-// POST /api/likes/[id] — increments and returns { count: number }
+// POST /api/likes/[id]
 export async function POST(
   _req: NextRequest,
   { params }: { params: Promise<{ id: string }> }
@@ -35,11 +29,6 @@ export async function POST(
     return NextResponse.json({ error: "Invalid recipe" }, { status: 404 });
   }
 
-  const redis = getRedis();
-  if (!redis) {
-    return NextResponse.json({ count: 0 });
-  }
-
-  const count = await redis.incr(`likes:${id}`);
+  const count = incrementLike(id);
   return NextResponse.json({ count });
 }
