@@ -7,6 +7,8 @@ export const alt = "ForkIt Recipe";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
+const BASE_URL = (process.env.NEXT_PUBLIC_BASE_URL || "https://forkit-app.vercel.app").trim();
+
 export default async function Image({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const recipe = SEED_RECIPES.find((r) => r.id === id);
@@ -58,7 +60,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={`${process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"}/images/dishes/${recipe.id}.jpg`}
+            src={`${BASE_URL}/images/dishes/${recipe.id}.jpg`}
             alt={recipe.name}
             style={{
               width: "100%",

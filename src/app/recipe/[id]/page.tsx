@@ -3,7 +3,7 @@ import { SEED_RECIPES } from "@/data/seed-recipes";
 import { getChef } from "@/lib/chefs";
 import RecipePageClient from "./RecipePageClient";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://forkit-app.vercel.app";
+const BASE_URL = (process.env.NEXT_PUBLIC_BASE_URL || "https://forkit-app.vercel.app").trim();
 
 interface RecipePageProps {
   params: Promise<{ id: string }>;
@@ -40,6 +40,7 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
           width: 1200,
           height: 630,
           alt: recipe.name,
+          type: "image/png",
         },
       ],
     },
@@ -47,7 +48,14 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
       card: "summary_large_image",
       title: recipe.name,
       description: `${recipe.tagline} — invented by ${chef.name}`,
-      images: [`/recipe/${id}/opengraph-image`],
+      images: [
+        {
+          url: `/recipe/${id}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          alt: recipe.name,
+        },
+      ],
     },
     alternates: {
       canonical: `/recipe/${id}`,

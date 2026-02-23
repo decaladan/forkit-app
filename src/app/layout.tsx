@@ -6,7 +6,7 @@ import "./globals.css";
 import { HtmlLangSetter } from "@/components/HtmlLangSetter";
 import { NavigationWrapper } from "@/components/NavigationWrapper";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://forkit-app.vercel.app";
+const BASE_URL = (process.env.NEXT_PUBLIC_BASE_URL || "https://forkit-app.vercel.app").trim();
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

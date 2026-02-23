@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SEED_RECIPES } from "@/data/seed-recipes";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://forkit-app.vercel.app";
+const BASE_URL = (process.env.NEXT_PUBLIC_BASE_URL || "https://forkit-app.vercel.app").trim();
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
