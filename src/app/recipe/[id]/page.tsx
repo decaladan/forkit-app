@@ -36,11 +36,11 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
       type: "article",
       images: [
         {
-          url: `/recipe/${id}/opengraph-image`,
-          width: 1200,
-          height: 630,
+          url: `/images/dishes/${id}.jpg`,
+          width: 1024,
+          height: 1024,
           alt: recipe.name,
-          type: "image/png",
+          type: "image/jpeg",
         },
       ],
     },
@@ -50,9 +50,9 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
       description: `${recipe.tagline} — invented by ${chef.name}`,
       images: [
         {
-          url: `/recipe/${id}/opengraph-image`,
-          width: 1200,
-          height: 630,
+          url: `/images/dishes/${id}.jpg`,
+          width: 1024,
+          height: 1024,
           alt: recipe.name,
         },
       ],
