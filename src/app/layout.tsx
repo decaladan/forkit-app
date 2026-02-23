@@ -55,9 +55,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/images/forkit-poster.jpg",
-        width: 2752,
-        height: 1536,
+        url: "/images/forkit-og.jpg",
+        width: 1200,
+        height: 630,
         alt: "ForkIt — AI Chefs. Wacky Dishes.",
         type: "image/jpeg",
       },
@@ -69,9 +69,9 @@ export const metadata: Metadata = {
     description: "5 AI chefs fight over your dinner. One wins. You eat.",
     images: [
       {
-        url: "/images/forkit-poster.jpg",
-        width: 2752,
-        height: 1536,
+        url: "/images/forkit-og.jpg",
+        width: 1200,
+        height: 630,
         alt: "ForkIt — AI Chefs. Wacky Dishes.",
       },
     ],
